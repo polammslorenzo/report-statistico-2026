@@ -121,16 +121,20 @@ body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(-
 .toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(80px);padding:12px 24px;background:var(--bg1);border:1px solid var(--sep2);color:var(--t);border-radius:980px;font-weight:500;font-size:13px;z-index:20000;opacity:0;transition:all .3s;box-shadow:0 8px 32px rgba(0,0,0,.4)}
 .toast.show{transform:translateX(-50%) translateY(0);opacity:1}
 .footer{padding:24px 0;text-align:center;font-size:11px;color:var(--t3);border-top:1px solid var(--sep);margin-top:40px}
+.security-note{padding:10px 14px;margin-bottom:16px;border:1px solid rgba(255,159,10,.28);background:rgba(255,159,10,.08);border-radius:10px;color:var(--orange);font-size:11px;line-height:1.45}
+.save-state{margin-left:auto;font-size:11px;color:var(--t3)}
 .tab-content{display:none}.tab-content.active{display:block}
 @media print{@page{size:A4 landscape;margin:8mm}*{box-shadow:none!important}body{background:#fff!important;color:#000!important;font-size:8px!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.hdr-right,.nav,.menu-dd,.modal-overlay,.toast,.user-bar,.upload-zone,.rankings,.legend,.footer{display:none!important}.wrap{padding:0!important;max-width:100%!important}.hdr{padding:6px 0!important;margin-bottom:6px!important;border-bottom:2px solid #1e40af!important}.hdr-left h1{font-size:15px!important;color:#1e40af!important}.hdr-left p,.hdr-left .hdr-meta{font-size:8px!important;color:#666!important}.kpi-row{grid-template-columns:repeat(4,1fr)!important;gap:4px!important;margin-bottom:6px!important}.kpi{padding:6px 8px!important;border:1px solid #ddd!important;background:#fff!important;border-radius:4px!important}.kpi .kpi-label{font-size:6px!important;color:#666!important;margin-bottom:2px!important}.kpi .kpi-value{font-size:12px!important;color:#000!important}.kpi .kpi-sub{font-size:5px!important;margin-top:1px!important}.tbl-wrap{border-radius:0!important;border:1px solid #bbb!important}.tbl{min-width:0!important}.tbl thead th{padding:3px 4px!important;font-size:6.5px!important;background:#f3f4f6!important;color:#000!important}.tbl tbody td{padding:2.5px 4px!important;font-size:7.5px!important;color:#000!important;background:#fff!important}.tbl tbody td:first-child{font-size:7px!important}.obj-cat-row td{padding:2px 4px!important;font-size:6.5px!important;background:#eef2ff!important;color:#1e40af!important}.summary-row td{background:#f3f4f6!important;border-top:1.5px solid #000!important}.progress-bar{width:30px!important;height:3px!important;background:#e5e7eb!important}.progress-fill,.status-badge{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}.progress-pct{font-size:7px!important}.status-badge{font-size:6px!important;padding:1px 4px!important}.status-critical{background:#fef2f2!important;color:#dc2626!important}.status-warning{background:#fffbeb!important;color:#d97706!important}.status-good{background:#f0fdf4!important;color:#059669!important}.status-excellent{background:#ecfeff!important;color:#0891b2!important}.status-reached{background:#dcfce7!important;color:#16a34a!important}.section{margin-bottom:4px!important}.s-title{font-size:11px!important;color:#1e40af!important}.s-sub{font-size:7px!important}.stat-section{border:1px solid #bbb!important;border-radius:0!important;margin-bottom:4px!important;page-break-inside:avoid!important}.stat-section-header{padding:4px 8px!important;font-size:9px!important;background:#f3f4f6!important;color:#000!important}.stat-header-vals,.stat-header-vals span{color:#000!important;font-size:7px!important}.stat-grid{grid-template-columns:repeat(2,1fr)!important}.stat-item{padding:2px 6px!important}.stat-item .stat-label{font-size:7px!important;color:#000!important}.stat-val-cell{font-size:7.5px!important;color:#000!important;min-width:32px!important}.tab-content{display:none!important}.tab-content.print-visible{display:block!important}.tab-content.print-visible+.tab-content.print-visible{page-break-before:always!important}#loginScreen{display:none!important}}
-@media(max-width:768px){.wrap{padding:16px}.hdr{flex-direction:column;gap:16px}.hdr-left h1{font-size:22px}.kpi-row{grid-template-columns:repeat(2,1fr)}.rankings{grid-template-columns:1fr}.stat-grid{grid-template-columns:1fr}.modal{max-width:100%}}
+@media(max-width:768px){.wrap{padding:16px}.hdr{flex-direction:column;gap:16px}.hdr-left h1{font-size:22px}.hdr-right{width:100%;flex-wrap:wrap}.nav{overflow-x:auto;scrollbar-width:thin}.tab{white-space:nowrap;padding:10px 14px}.kpi-row{grid-template-columns:repeat(2,1fr)}.rankings{grid-template-columns:1fr}.stat-grid{grid-template-columns:1fr}.modal-overlay{padding:12px}.modal{max-width:100%}.modal-body{max-height:72vh}.user-bar{flex-wrap:wrap}.save-state{width:100%;margin-left:28px}}
+@media(max-width:430px){.kpi-row{grid-template-columns:1fr}.b{padding:8px 12px}.hdr-right .b{flex:1;justify-content:center}}
 </style>
 </head>
 <body>
 <div id="loginScreen" style="display:none"><div class="login-box"><div style="font-size:48px;margin-bottom:16px">🛡️</div><h2>Report 2026</h2><div class="login-sub">U.O. San Lorenzo — Polizia Municipale</div><div class="form-group"><label class="form-label">Username</label><input type="text" class="form-input" id="loginUser" placeholder="Username" onkeydown="if(event.key==='Enter')doLogin()"></div><div class="form-group"><label class="form-label">Password</label><input type="password" class="form-input" id="loginPass" placeholder="Password" onkeydown="if(event.key==='Enter')doLogin()"></div><div class="login-error" id="loginError">Credenziali non valide</div><button class="b b-blue" onclick="doLogin()" style="width:100%;justify-content:center;padding:12px;font-size:14px;margin-top:12px">Accedi</button></div></div>
 <div class="wrap">
-  <div class="hdr"><div class="hdr-left"><h1>Report Statistico 2026</h1><p>U.O. San Lorenzo — Polizia Municipale del Comune di Napoli</p><div class="hdr-meta"><span id="monthsInfo"></span></div></div><div class="hdr-right"><button class="b b-blue" onclick="openExcelImport()">Carica Excel</button><button class="b" onclick="openPDFModal()">Esporta PDF</button><div class="menu-wrap"><button class="menu-trigger" onclick="toggleMenu()">⋯</button><div class="menu-dd" id="actionMenu"><button class="menu-item" onclick="openManualEntry();closeMenu()"><span class="mi-icon">✏️</span>Inserimento manuale</button><button class="menu-item" onclick="exportExcel();closeMenu()"><span class="mi-icon">📗</span>Esporta Excel</button><div class="menu-sep"></div><button class="menu-item admin-only" onclick="exportJSON();closeMenu()"><span class="mi-icon">💾</span>Backup JSON</button><button class="menu-item admin-only" onclick="document.getElementById('importJSON').click();closeMenu()"><span class="mi-icon">📂</span>Importa JSON</button><div class="menu-sep admin-only"></div><button class="menu-item admin-only" onclick="openDataMgmt();closeMenu()"><span class="mi-icon">🗂️</span>Gestione dati mensili</button><button class="menu-item admin-only" onclick="openObjMgmt();closeMenu()"><span class="mi-icon">⚙️</span>Gestione obiettivi</button><button class="menu-item admin-only" onclick="document.getElementById('importObjFile').click();closeMenu()"><span class="mi-icon">🎯</span>Carica obiettivi (Excel/PDF)</button><button class="menu-item admin-only" onclick="openUserMgmt();closeMenu()"><span class="mi-icon">👥</span>Gestione utenti</button><div class="menu-sep"></div><button class="menu-item" onclick="doLogout();closeMenu()"><span class="mi-icon">🚪</span>Disconnetti</button></div></div><input type="file" id="importJSON" accept=".json" style="display:none" onchange="importJSON(event)"><input type="file" id="importObjFile" accept=".xlsx,.xls,.pdf" style="display:none" onchange="handleObjFileUpload(event)"></div></div>
+  <div class="hdr"><div class="hdr-left"><h1>Report Statistico 2026</h1><p>U.O. San Lorenzo — Polizia Municipale del Comune di Napoli</p><div class="hdr-meta"><span id="monthsInfo"></span></div></div><div class="hdr-right"><button class="b b-blue admin-only" onclick="openExcelImport()">Carica Excel</button><button class="b" onclick="openPDFModal()">Esporta PDF</button><div class="menu-wrap"><button class="menu-trigger" onclick="toggleMenu()">⋯</button><div class="menu-dd" id="actionMenu"><button class="menu-item admin-only" onclick="openManualEntry();closeMenu()"><span class="mi-icon">✏️</span>Inserimento manuale</button><button class="menu-item" onclick="exportExcel();closeMenu()"><span class="mi-icon">📗</span>Esporta Excel</button><div class="menu-sep"></div><button class="menu-item admin-only" onclick="exportJSON();closeMenu()"><span class="mi-icon">💾</span>Backup JSON</button><button class="menu-item admin-only" onclick="document.getElementById('importJSON').click();closeMenu()"><span class="mi-icon">📂</span>Importa JSON</button><div class="menu-sep admin-only"></div><button class="menu-item admin-only" onclick="openDataMgmt();closeMenu()"><span class="mi-icon">🗂️</span>Gestione dati mensili</button><button class="menu-item admin-only" onclick="openObjMgmt();closeMenu()"><span class="mi-icon">⚙️</span>Gestione obiettivi</button><button class="menu-item admin-only" onclick="document.getElementById('importObjFile').click();closeMenu()"><span class="mi-icon">🎯</span>Carica obiettivi (Excel/PDF)</button><button class="menu-item admin-only" onclick="openUserMgmt();closeMenu()"><span class="mi-icon">👥</span>Gestione utenti</button><div class="menu-sep"></div><button class="menu-item" onclick="doLogout();closeMenu()"><span class="mi-icon">🚪</span>Disconnetti</button></div></div><input type="file" id="importJSON" accept=".json" style="display:none" onchange="importJSON(event)"><input type="file" id="importObjFile" accept=".xlsx,.xls,.pdf" style="display:none" onchange="handleObjFileUpload(event)"></div></div>
   <div class="user-bar" id="userBar" style="display:none"><span>👤</span><span class="ub-name" id="ubName"></span><span class="ub-role" id="ubRole"></span></div>
+  <div class="security-note">⚠️ Versione locale: dati e credenziali restano in questo browser. Il login limita l’interfaccia ma non sostituisce un’autenticazione server per uso multiutente.</div>
   <div class="nav"><button class="tab active" onclick="switchTab('obiettivi',this)">Obiettivi</button><button class="tab" onclick="switchTab('stradale',this)">Stradale</button><button class="tab" onclick="switchTab('edilizia',this)">Edilizia</button><button class="tab" onclick="switchTab('commercio',this)">Commercio</button><button class="tab" onclick="switchTab('ambiente',this)">Ambiente</button><button class="tab" onclick="switchTab('altro',this)">Altro</button></div>
   <div class="tab-content active" id="tab-obiettivi"><div class="kpi-row" id="kpiGrid"></div><div class="rankings" id="rankingsArea"></div><div class="legend"><span><span class="dot" style="background:var(--red)"></span>Critico</span><span><span class="dot" style="background:var(--orange)"></span>Attenzione</span><span><span class="dot" style="background:var(--green)"></span>In Linea</span><span><span class="dot" style="background:var(--cyan)"></span>Ottimo</span><span><span class="dot" style="background:var(--green)"></span>Raggiunto</span></div><div class="section"><div class="s-title">Avanzamento Obiettivi</div><div class="s-sub">Target annuali — master obiettivi 2025</div><div class="tbl-wrap"><table class="tbl"><thead id="tblHead"><tr><th style="min-width:240px">Obiettivo</th><th>Target</th><th>Totale</th><th>Mancano</th><th>Ritmo/mese</th><th>%</th><th>Stato</th></tr></thead><tbody id="objBody"></tbody></table></div></div></div>
   <div class="tab-content" id="tab-stradale"><div class="section"><div class="s-title">Polizia Stradale</div><div class="s-sub">Interventi e controlli</div><div id="stradaleStats"></div></div></div>
@@ -152,11 +156,17 @@ body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(-
 function toggleMenu(){document.getElementById('actionMenu').classList.toggle('open')}
 function closeMenu(){document.getElementById('actionMenu').classList.remove('open')}
 document.addEventListener('click',e=>{if(!e.target.closest('.menu-wrap'))closeMenu()})
+function escapeHTML(value){return String(value??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]))}
+function requireAdmin(){
+  if(isAdmin())return true;
+  showToast('⛔ Operazione riservata agli amministratori','var(--red)');
+  return false;
+}
 // ====== AUTH SYSTEM ======
 const AUTH_USERS_KEY='uo_auth_users';
 const AUTH_SESSION_KEY='uo_auth_session';
 function getUsers(){try{return JSON.parse(localStorage.getItem(AUTH_USERS_KEY))||[];}catch(e){return[];}}
-function saveUsers(u){localStorage.setItem(AUTH_USERS_KEY,JSON.stringify(u))}
+function saveUsers(u){try{localStorage.setItem(AUTH_USERS_KEY,JSON.stringify(u));return true}catch(e){showToast('❌ Salvataggio utenti non riuscito','var(--red)');return false}}
 function getSession(){try{return JSON.parse(sessionStorage.getItem(AUTH_SESSION_KEY));}catch(e){return null;}}
 function setSession(s){sessionStorage.setItem(AUTH_SESSION_KEY,JSON.stringify(s))}
 function clearSession(){sessionStorage.removeItem(AUTH_SESSION_KEY)}
@@ -203,7 +213,7 @@ function doLogout(){
     document.getElementById('loginUser').value='';document.getElementById('loginPass').value='';
     document.getElementById('loginError').style.display='none';}
 }
-function openUserMgmt(){document.getElementById('modalUsers').classList.add('open');renderUserList();}
+function openUserMgmt(){if(!requireAdmin())return;document.getElementById('modalUsers').classList.add('open');renderUserList();}
 function renderUserList(){
   const users=getUsers(),session=getSession();
   if(!users.length){document.getElementById('userList').innerHTML='<div style="text-align:center;padding:20px;color:var(--t3)"><p style="font-size:30px;margin-bottom:8px">🔓</p><p style="font-size:14px;font-weight:600">Accesso libero</p><p style="font-size:12px">Nessun utente registrato. Crea il primo per attivare il login.</p></div>';return;}
@@ -213,19 +223,22 @@ function renderUserList(){
     const ri=u.role==='admin'?'🛡️':'👁️',rn=u.role==='admin'?'Amministratore':'Operatore',rc=u.role==='admin'?'ub-role-admin':'ub-role-operatore';
     h+=`<div style="display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--bg2);border:1px solid ${isSelf?'var(--blue)':'var(--sep)'};border-radius:8px;margin-bottom:6px">
       <span style="font-size:18px">👤</span>
-      <div style="flex:1"><div style="font-weight:600;font-size:13px">${u.name} ${isSelf?'<span style="color:var(--blue);font-size:10px">(tu)</span>':''}</div><div style="font-size:11px;color:var(--t3)">@${u.username}</div></div>
+      <div style="flex:1"><div style="font-weight:600;font-size:13px">${escapeHTML(u.name)} ${isSelf?'<span style="color:var(--blue);font-size:10px">(tu)</span>':''}</div><div style="font-size:11px;color:var(--t3)">@${escapeHTML(u.username)}</div></div>
       <span class="ub-role ${rc}" style="font-size:10px">${ri} ${rn}</span>
-      ${!isSelf?`<button class="btn btn-red btn-sm" onclick="removeUser(${i})" style="font-size:10px;padding:4px 8px">✕</button>`:''}
+      ${!isSelf?`<button class="b b-red b-sm" onclick="removeUser(${i})" style="font-size:10px;padding:4px 8px" aria-label="Elimina utente">✕</button>`:''}
     </div>`;
   });
   document.getElementById('userList').innerHTML=h;
 }
 function addUser(){
+  if(!requireAdmin())return;
   const name=document.getElementById('newUserName').value.trim();
   const username=document.getElementById('newUserUsername').value.trim().toLowerCase();
   const password=document.getElementById('newUserPass').value;
   const role=document.getElementById('newUserRole').value;
   if(!name||!username||!password){showToast('⚠️ Compila tutti i campi','var(--orange)');return;}
+  if(!/^[a-z0-9._-]{3,40}$/.test(username)){showToast('⚠️ Username non valido','var(--orange)');return;}
+  if(password.length<8){showToast('⚠️ La password deve avere almeno 8 caratteri','var(--orange)');return;}
   const users=getUsers();
   if(users.find(u=>u.username.toLowerCase()===username)){showToast('⚠️ Username già esistente','var(--orange)');return;}
   users.push({name,username,password,role});saveUsers(users);
@@ -234,6 +247,7 @@ function addUser(){
   renderUserList();showToast(`✅ Utente ${name} creato!`);
 }
 function removeUser(idx){
+  if(!requireAdmin())return;
   const users=getUsers(),u=users[idx];
   if(!confirm(`Eliminare ${u.name}?`))return;
   users.splice(idx,1);saveUsers(users);renderUserList();
@@ -241,6 +255,7 @@ function removeUser(idx){
   if(!users.length){document.body.classList.add('role-admin');document.getElementById('userBar').style.display='none';}
 }
 function resetUsers(){
+  if(!requireAdmin())return;
   localStorage.removeItem(AUTH_USERS_KEY);clearSession();
   document.body.classList.add('role-admin');document.getElementById('userBar').style.display='none';
   closeAllModals();showToast('🔓 Utenti eliminati — accesso libero','var(--orange)');
@@ -291,7 +306,7 @@ const DEFAULT_OBJ=[
 ];
 
 function loadObjConfig(){try{const c=JSON.parse(localStorage.getItem(OBJ_CONFIG_KEY));return c&&c.length?c:JSON.parse(JSON.stringify(DEFAULT_OBJ));}catch(e){return JSON.parse(JSON.stringify(DEFAULT_OBJ));}}
-function saveObjConfig(c){localStorage.setItem(OBJ_CONFIG_KEY,JSON.stringify(c))}
+function saveObjConfig(c){try{localStorage.setItem(OBJ_CONFIG_KEY,JSON.stringify(c));return true}catch(e){showToast('❌ Salvataggio obiettivi non riuscito','var(--red)');return false}}
 
 // Build dynamic EXCEL_MAP from obj config + static extras
 const STATIC_EXCEL_MAP={
@@ -394,7 +409,7 @@ const FIELDS={
 // ====== STORAGE ======
 const SK='uo_sl_report_2026';
 function loadData(){try{return JSON.parse(localStorage.getItem(SK))||{}}catch(e){return{}}}
-function saveData(d){localStorage.setItem(SK,JSON.stringify(d))}
+function saveData(d){try{localStorage.setItem(SK,JSON.stringify(d));return true}catch(e){showToast('❌ Spazio locale esaurito o non disponibile','var(--red)');return false}}
 function getLoaded(){const d=loadData();return MONTHS.filter(m=>d[m])}
 
 // ====== PRELOAD ======
@@ -405,6 +420,7 @@ let pendingExcelData=null;
 let pendingExcelMonth=null;
 
 function openExcelImport(){
+  if(!requireAdmin())return;
   document.getElementById('modalExcel').classList.add('open');
   document.getElementById('uploadResult').classList.remove('show');
   document.getElementById('excelPreview').innerHTML='';
@@ -413,12 +429,16 @@ function openExcelImport(){
 }
 
 function handleExcelUpload(evt){
+  if(!requireAdmin()){evt.target.value='';return;}
   const file=evt.target.files[0];
   if(!file)return;
+  if(file.size>10*1024*1024){showToast('❌ File troppo grande (massimo 10 MB)','var(--red)');evt.target.value='';return;}
+  if(!/\.(xlsx|xls)$/i.test(file.name)){showToast('❌ Formato Excel non valido','var(--red)');evt.target.value='';return;}
   const reader=new FileReader();
   reader.onload=function(e){
     try{
       const wb=XLSX.read(e.target.result,{type:'array'});
+      if(!wb.SheetNames.length)throw new Error('Il file non contiene fogli');
       const ws=wb.Sheets[wb.SheetNames[0]];
       // Detect month from B4 (RA_05) or A4 (RA_04 legacy)
       var a4=ws['A4']?String(ws['A4'].v).trim().toUpperCase():'';
@@ -467,7 +487,7 @@ function handleExcelUpload(evt){
       groups.forEach(g=>{
         const nonZero=g.ids.filter(id=>extracted[id]>0);
         if(nonZero.length>0){
-          preview+=`<div style="font-size:11px;color:var(--blue);font-weight:700;margin:10px 0 4px;text-transform:uppercase">${g.t} (${nonZero.length} voci)</div>`;
+          preview+=`<div style="font-size:11px;color:var(--blue);font-weight:700;margin:10px 0 4px;text-transform:uppercase">${escapeHTML(g.t)} (${nonZero.length} voci)</div>`;
           nonZero.forEach(id=>{
             const f=allFields.find(x=>x.id===id);
             preview+=`<div style="display:flex;justify-content:space-between;padding:3px 0;font-size:11px"><span style="color:var(--t2)">${f?f.label:id}</span><span style="color:var(--green);font-family:'JetBrains Mono',monospace;font-weight:600">${extracted[id].toLocaleString('it')}</span></div>`;
@@ -488,10 +508,12 @@ function handleExcelUpload(evt){
 }
 
 function confirmExcelSave(){
+  if(!requireAdmin())return;
   if(!pendingExcelData||!pendingExcelMonth)return;
   const d=loadData();
+  if(d[pendingExcelMonth]&&!confirm(`I dati di ${MN[pendingExcelMonth]} esistono già. Sostituirli?`))return;
   d[pendingExcelMonth]=pendingExcelData;
-  saveData(d);
+  if(!saveData(d))return;
   closeAllModals();
   showToast(`✅ Dati ${MN[pendingExcelMonth]} importati da Excel!`);
   renderAll();
@@ -499,6 +521,7 @@ function confirmExcelSave(){
 
 // ====== MANUAL ENTRY ======
 function openManualEntry(){
+  if(!requireAdmin())return;
   document.getElementById('modalManual').classList.add('open');
   document.getElementById('manualMonth').value='';
   document.getElementById('manualFields').innerHTML='<p style="color:var(--t3);text-align:center;padding:40px">Seleziona un mese</p>';
@@ -517,15 +540,16 @@ function loadManualMonth(){
     {t:'🏪 Commercio',f:FIELDS.commercio},{t:'🌿 Ambiente',f:FIELDS.ambiente},{t:'📊 Altro',f:FIELDS.altro});
   let h='';
   groups.forEach(g=>{
-    h+=`<div class="form-section-title">${g.t}</div>`;
+    h+=`<div class="form-section-title">${escapeHTML(g.t)}</div>`;
     g.f.forEach(f=>{
-      h+=`<div class="form-grid"><span class="fg-label">${f.label}${f.target?' <span style="color:var(--t3)">(${f.target.toLocaleString("it")})</span>':''}</span><input type="number" class="form-input" id="mf_${f.id}" value="${md[f.id]||''}" min="0" placeholder="0"></div>`;
+      h+=`<div class="form-grid"><span class="fg-label">${escapeHTML(f.label)}${f.target?' <span style="color:var(--t3)">(${f.target.toLocaleString("it")})</span>':''}</span><input type="number" class="form-input" id="mf_${f.id}" value="${md[f.id]||''}" min="0" placeholder="0"></div>`;
     });
   });
   document.getElementById('manualFields').innerHTML=h;
 }
 
 function saveManual(){
+  if(!requireAdmin())return;
   const m=document.getElementById('manualMonth').value;
   if(!m){showToast('⚠️ Seleziona mese!','var(--orange)');return;}
   const d=loadData();d[m]={};
@@ -533,11 +557,12 @@ function saveManual(){
     const el=document.getElementById('mf_'+f.id);
     if(el)d[m][f.id]=parseInt(el.value)||0;
   });
-  saveData(d);closeAllModals();showToast(`✅ ${MN[m]} salvato!`);renderAll();
+  if(!saveData(d))return;closeAllModals();showToast(`✅ ${MN[m]} salvato!`);renderAll();
 }
 
 // ====== DATA MANAGEMENT ======
 function openDataMgmt(){
+  if(!requireAdmin())return;
   document.getElementById('modalDataMgmt').classList.add('open');
   renderDataMgmt();
 }
@@ -568,6 +593,7 @@ function renderDataMgmt(){
   el.innerHTML=h;
 }
 function deleteMonthData(m){
+  if(!requireAdmin())return;
   if(!confirm('Eliminare i dati di '+MN[m]+'?'))return;
   var d=loadData();
   delete d[m];
@@ -578,6 +604,7 @@ function deleteMonthData(m){
 }
 
 function deleteMonth(){
+  if(!requireAdmin())return;
   const m=document.getElementById('manualMonth').value;
   if(!m||!confirm(`Eliminare ${MN[m]}?`))return;
   const d=loadData();delete d[m];saveData(d);
@@ -634,17 +661,34 @@ function exportJSON(){
   a.download=`report_2026_backup_${new Date().toISOString().slice(0,10)}.json`;a.click();
   showToast('💾 Backup JSON esportato!');
 }
+function validateImportedData(value){
+  if(!value||typeof value!=='object'||Array.isArray(value))throw new Error('Struttura principale non valida');
+  const clean={};
+  for(const [month,fields] of Object.entries(value)){
+    if(!MONTHS.includes(month)||!fields||typeof fields!=='object'||Array.isArray(fields))throw new Error('Mese o struttura non valida');
+    clean[month]={};
+    for(const [id,raw] of Object.entries(fields)){
+      if(!/^[a-z0-9_]{1,80}$/i.test(id))throw new Error('Codice campo non valido');
+      const number=Number(raw);
+      if(!Number.isFinite(number)||number<0||number>100000000)throw new Error('Valore numerico non valido');
+      clean[month][id]=Math.trunc(number);
+    }
+  }
+  return clean;
+}
 function importJSON(evt){
+  if(!requireAdmin()){evt.target.value='';return;}
   const file=evt.target.files[0];if(!file)return;
   const r=new FileReader();
   r.onload=function(e){
-    try{const imp=JSON.parse(e.target.result);const d=loadData();Object.assign(d,imp);saveData(d);showToast('📂 JSON importato!');renderAll();}
-    catch(e){showToast('❌ File non valido','var(--red)');}
+    try{const imp=validateImportedData(JSON.parse(e.target.result));const d=loadData();Object.assign(d,imp);if(!saveData(d))return;showToast('📂 JSON validato e importato!');renderAll();}
+    catch(e){showToast('❌ File non valido: '+e.message,'var(--red)');}
   };r.readAsText(file);evt.target.value='';
 }
 
 // ====== OBJECTIVE MANAGEMENT ======
 function openObjMgmt(){
+  if(!requireAdmin())return;
   document.getElementById('modalObjMgmt').classList.add('open');
   renderObjMgmt();
 }
@@ -654,20 +698,20 @@ function renderObjMgmt(){
   config.forEach((cat,ci)=>{
     h+=`<div style="background:var(--bg2);border:1px solid var(--sep);border-radius:10px;margin-bottom:12px;overflow:hidden">
       <div style="display:flex;align-items:center;gap:8px;padding:10px 14px;border-bottom:1px solid var(--sep);background:rgba(59,130,246,.05)">
-        <input type="text" value="${cat.cat}" onchange="renameCat(${ci},this.value)" style="flex:1;background:transparent;border:none;color:var(--blue);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;outline:none;font-family:'Outfit',sans-serif">
+        <input type="text" value="${escapeHTML(cat.cat)}" onchange="renameCat(${ci},this.value)" style="flex:1;background:transparent;border:none;color:var(--blue);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;outline:none;font-family:'Outfit',sans-serif">
         <span style="font-size:10px;color:var(--t3)">${cat.items.length} obj</span>
-        <button class="btn btn-red btn-sm" onclick="removeCat(${ci})" style="font-size:9px;padding:3px 8px" title="Elimina categoria">✕</button>
+        <button class="b b-red b-sm" onclick="removeCat(${ci})" style="font-size:9px;padding:3px 8px" title="Elimina categoria">✕</button>
       </div>
       <div style="padding:8px">`;
     cat.items.forEach((item,ii)=>{
       h+=`<div style="display:grid;grid-template-columns:1fr 80px 70px 70px;gap:6px;align-items:center;padding:5px 6px;border-bottom:1px solid rgba(255,255,255,.03);font-size:11px">
-        <input type="text" value="${item.label}" onchange="editObj(${ci},${ii},'label',this.value)" style="background:var(--bg2);border:1px solid var(--sep);border-radius:4px;padding:5px 8px;color:var(--t);font-size:11px;font-family:'Outfit',sans-serif">
+        <input type="text" value="${escapeHTML(item.label)}" onchange="editObj(${ci},${ii},'label',this.value)" style="background:var(--bg2);border:1px solid var(--sep);border-radius:4px;padding:5px 8px;color:var(--t);font-size:11px;font-family:'Outfit',sans-serif">
         <input type="number" value="${item.target}" onchange="editObj(${ci},${ii},'target',parseInt(this.value)||0)" style="background:var(--bg2);border:1px solid var(--sep);border-radius:4px;padding:5px 6px;color:var(--yellow);font-family:'JetBrains Mono',monospace;font-size:11px;text-align:right" title="Target annuale">
-        <input type="text" value="${item.cell||''}" onchange="editObj(${ci},${ii},'cell',this.value.toUpperCase())" placeholder="Cella" style="background:var(--bg2);border:1px solid var(--sep);border-radius:4px;padding:5px 6px;color:var(--cyan);font-family:'JetBrains Mono',monospace;font-size:11px;text-align:center" title="Cella Excel (es. B9)">
+        <input type="text" value="${escapeHTML(item.cell||'')}" onchange="editObj(${ci},${ii},'cell',this.value.toUpperCase())" placeholder="Cella" style="background:var(--bg2);border:1px solid var(--sep);border-radius:4px;padding:5px 6px;color:var(--cyan);font-family:'JetBrains Mono',monospace;font-size:11px;text-align:center" title="Cella Excel (es. B9)">
         <div style="display:flex;gap:3px;justify-content:flex-end">
           <select onchange="moveObj(${ci},${ii},this.value);this.value=''" style="width:28px;height:24px;background:var(--bg1);border:1px solid var(--sep);border-radius:4px;color:var(--t3);font-size:9px;cursor:pointer;padding:0 2px" title="Sposta in altra categoria">
             <option value="">↕</option>
-            ${config.map((c2,c2i)=>c2i!==ci?`<option value="${c2i}">${c2.cat.substring(0,12)}</option>`:'').join('')}
+            ${config.map((c2,c2i)=>c2i!==ci?`<option value="${c2i}">${escapeHTML(c2.cat.substring(0,12))}</option>`:'').join('')}
           </select>
           <button onclick="removeObj(${ci},${ii})" style="width:24px;height:24px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.2);border-radius:4px;color:var(--red);cursor:pointer;font-size:10px;display:flex;align-items:center;justify-content:center" title="Elimina">✕</button>
         </div>
@@ -687,21 +731,25 @@ function renderObjMgmt(){
   document.getElementById('objMgmtBody').innerHTML=h;
 }
 function editObj(ci,ii,prop,val){
+  if(!requireAdmin())return;
   const c=loadObjConfig();c[ci].items[ii][prop]=val;saveObjConfig(c);renderObjMgmt();renderAll();
 }
 function addObj(ci){
+  if(!requireAdmin())return;
   const c=loadObjConfig();
   const newId='obj_'+Date.now();
   c[ci].items.push({id:newId,label:'Nuovo obiettivo',target:100,cell:''});
   saveObjConfig(c);renderObjMgmt();renderAll();
 }
 function removeObj(ci,ii){
+  if(!requireAdmin())return;
   const c=loadObjConfig();
   if(!confirm(`Eliminare "${c[ci].items[ii].label}"?`))return;
   c[ci].items.splice(ii,1);saveObjConfig(c);renderObjMgmt();renderAll();
   showToast('🗑️ Obiettivo eliminato','var(--red)');
 }
 function moveObj(ci,ii,newCi){
+  if(!requireAdmin())return;
   if(newCi==='')return;
   const c=loadObjConfig();
   const item=c[ci].items.splice(ii,1)[0];
@@ -710,20 +758,24 @@ function moveObj(ci,ii,newCi){
   showToast('↕ Obiettivo spostato');
 }
 function renameCat(ci,name){
+  if(!requireAdmin())return;
   const c=loadObjConfig();c[ci].cat=name;saveObjConfig(c);renderAll();
 }
 function addCat(){
+  if(!requireAdmin())return;
   const c=loadObjConfig();
   c.push({cat:'NUOVA CATEGORIA',items:[]});
   saveObjConfig(c);renderObjMgmt();renderAll();
 }
 function removeCat(ci){
+  if(!requireAdmin())return;
   const c=loadObjConfig();
   if(c[ci].items.length&&!confirm(`Eliminare "${c[ci].cat}" con ${c[ci].items.length} obiettivi?`))return;
   c.splice(ci,1);saveObjConfig(c);renderObjMgmt();renderAll();
   showToast('🗑️ Categoria eliminata','var(--red)');
 }
 function resetObjConfig(){
+  if(!requireAdmin())return;
   localStorage.removeItem(OBJ_CONFIG_KEY);
   renderObjMgmt();renderAll();
   showToast('🔄 Configurazione ripristinata ai default');
@@ -731,6 +783,7 @@ function resetObjConfig(){
 
 // ====== IMPORT OBJECTIVES FROM EXCEL OR PDF ======
 function handleObjFileUpload(evt){
+  if(!requireAdmin()){evt.target.value='';return;}
   const file=evt.target.files[0];
   if(!file)return;
   const ext=file.name.split('.').pop().toLowerCase();
@@ -745,11 +798,14 @@ function handleObjFileUpload(evt){
 
 // PDF PARSER — extracts text, matches known objective names, reads target numbers
 async function handleObjPdfUpload(file){
+  if(!requireAdmin())return;
   if(typeof pdfjsLib==='undefined'){showToast('⚠️ Libreria PDF non disponibile — usa Excel','var(--orange)');return;}
+  if(file.size>15*1024*1024){showToast('❌ PDF troppo grande (massimo 15 MB)','var(--red)');return;}
   try{
     showToast('📄 Lettura PDF...','var(--blue)');
     const ab=await file.arrayBuffer();
     const pdf=await pdfjsLib.getDocument({data:ab}).promise;
+    if(pdf.numPages>30)throw new Error('PDF troppo lungo (massimo 30 pagine)');
     // Extract all text items with their Y positions to reconstruct rows
     var rows=[];
     for(var p=1;p<=pdf.numPages;p++){
@@ -878,6 +934,7 @@ async function handleObjPdfUpload(file){
     }
     
     if(updated>0){
+      if(!confirm('Il PDF propone '+updated+' aggiornamenti agli obiettivi. Confermare dopo aver verificato il documento?'))return;
       saveObjConfig(config);
       renderAll();
       showToast('✅ PDF: '+updated+' obiettivi aggiornati');
@@ -909,6 +966,7 @@ const OBJ_EXCEL_ROW_MAP=[
 ];
 
 function handleObjExcelUpload(evt){
+  if(!requireAdmin()){evt.target.value='';return;}
   const file=evt.target.files[0];
   if(!file)return;
   const reader=new FileReader();
@@ -1025,7 +1083,7 @@ function renderAll(){
   const top3Html=top3.map((o,i)=>{
     const medal=['🥇','🥈','🥉'][i];
     return `<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.04)">
-      <span style="font-size:11px;color:var(--t2)">${medal} ${o.name}</span>
+      <span style="font-size:11px;color:var(--t2)">${medal} ${escapeHTML(o.name)}</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--green)">${o.pct.toFixed(1)}%</span>
     </div>`;
   }).join('');
@@ -1033,7 +1091,7 @@ function renderAll(){
   const bot3Html=bottom3.map((o,i)=>{
     const icon=['🔴','🟠','🟡'][i];
     return `<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.04)">
-      <span style="font-size:11px;color:var(--t2)">${icon} ${o.name}</span>
+      <span style="font-size:11px;color:var(--t2)">${icon} ${escapeHTML(o.name)}</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--red)">${o.pct.toFixed(1)}%</span>
     </div>`;
   }).join('');
@@ -1051,7 +1109,7 @@ function renderAll(){
     </div>
     <div class="kpi">
       <div class="kpi-label">Più critico</div>
-      <div class="kpi-value" style="color:var(--red);font-size:15px;line-height:1.4">${worstName}</div>
+      <div class="kpi-value" style="color:var(--red);font-size:15px;line-height:1.4">${escapeHTML(worstName)}</div>
       <div class="kpi-sub">${worstPct.toFixed(1)}% del target</div>
     </div>
     <div class="kpi">
@@ -1063,18 +1121,18 @@ function renderAll(){
   document.getElementById('rankingsArea').innerHTML=`
     <div class="rank-card">
       <div class="rc-title">Migliori 3</div>
-      ${top3.map((o,i)=>`<div class="rank-item"><span class="ri-label">${['①','②','③'][i]} ${o.name}</span><span class="ri-val" style="color:var(--green)">${o.pct.toFixed(1)}%</span></div>`).join('')}
+      ${top3.map((o,i)=>`<div class="rank-item"><span class="ri-label">${['①','②','③'][i]} ${escapeHTML(o.name)}</span><span class="ri-val" style="color:var(--green)">${o.pct.toFixed(1)}%</span></div>`).join('')}
     </div>
     <div class="rank-card">
       <div class="rc-title">Da migliorare</div>
-      ${bottom3.map((o,i)=>`<div class="rank-item"><span class="ri-label">${o.name}</span><span class="ri-val" style="color:var(--red)">${o.pct.toFixed(1)}%</span></div>`).join('')}
+      ${bottom3.map((o,i)=>`<div class="rank-item"><span class="ri-label">${escapeHTML(o.name)}</span><span class="ri-val" style="color:var(--red)">${o.pct.toFixed(1)}%</span></div>`).join('')}
     </div>`;
   // OBJ TABLE
   const mH=loaded.map(m=>'<th>'+MS[m]+'</th>').join('');
   document.getElementById('tblHead').innerHTML='<tr><th style="min-width:240px">Obiettivo</th><th>Target</th>'+mH+'<th>Totale</th><th>Mancano</th><th>Ritmo/mese</th><th>%</th><th>Stato</th></tr>';
   let html='',gT=0,gTar=0;
   FIELDS.obj.forEach(cat=>{
-    html+=`<tr class="obj-cat-row"><td colspan="${6+n}">${cat.cat}</td></tr>`;
+    html+=`<tr class="obj-cat-row"><td colspan="${6+n}">${escapeHTML(cat.cat)}</td></tr>`;
     cat.items.forEach(o=>{
       let sum=0,mc='';
       loaded.forEach(m=>{const v=((d[m]||{})[o.id])||0;sum+=v;mc+=`<td>${v.toLocaleString('it')}</td>`;});
@@ -1083,7 +1141,7 @@ function renderAll(){
       const ritmoStr=rem===0?'✓':ritmo.toLocaleString('it');
       const ritmoColor=rem===0?'var(--green)':'var(--t2)';
       gT+=sum;gTar+=o.target;
-      html+=`<tr><td>${o.label}</td><td style="color:var(--t3)">${o.target.toLocaleString('it')}</td>${mc}<td style="font-weight:700;color:var(--t)">${sum.toLocaleString('it')}</td><td style="color:${rem?'var(--orange)':'var(--green)'}">${rem?rem.toLocaleString('it'):'✓'}</td><td style="color:${ritmoColor};font-weight:600">${ritmoStr}</td><td><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:${Math.min(pct,100)}%;background:${s.color}"></div></div><span class="progress-pct" style="color:${s.color}">${pct.toFixed(1)}%</span></div></td><td><span class="status-badge ${s.cls}">${s.label}</span></td></tr>`;
+      html+=`<tr><td>${escapeHTML(o.label)}</td><td style="color:var(--t3)">${o.target.toLocaleString('it')}</td>${mc}<td style="font-weight:700;color:var(--t)">${sum.toLocaleString('it')}</td><td style="color:${rem?'var(--orange)':'var(--green)'}">${rem?rem.toLocaleString('it'):'✓'}</td><td style="color:${ritmoColor};font-weight:600">${ritmoStr}</td><td><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:${Math.min(pct,100)}%;background:${s.color}"></div></div><span class="progress-pct" style="color:${s.color}">${pct.toFixed(1)}%</span></div></td><td><span class="status-badge ${s.cls}">${s.label}</span></td></tr>`;
     });
   });
   const gP=gTar?(gT/gTar*100):0,gs=getStatus(gP,n),gR=Math.max(0,gTar-gT);
@@ -1115,12 +1173,12 @@ function renderAll(){
 function buildStat(cid,title,fields,d,loaded){
   const c=document.getElementById(cid);
   const hv=loaded.map(m=>`<span style="color:var(--t)">${MS[m]}</span>`).join('')+`<span style="color:var(--green)">TOT</span>`;
-  let h=`<div class="stat-section"><div class="stat-section-header">${title}<div class="stat-header-vals">${hv}</div></div><div class="stat-grid">`;
+  let h=`<div class="stat-section"><div class="stat-section-header">${escapeHTML(title)}<div class="stat-header-vals">${hv}</div></div><div class="stat-grid">`;
   fields.forEach(f=>{
     let tot=0,v='';
     loaded.forEach(m=>{const val=((d[m]||{})[f.id])||0;tot+=val;v+=`<span class="stat-val-cell" style="color:var(--t)">${val.toLocaleString('it')}</span>`;});
     v+=`<span class="stat-val-cell" style="color:var(--green)">${tot.toLocaleString('it')}</span>`;
-    h+=`<div class="stat-item"><span class="stat-label">${f.label}</span><div class="stat-vals">${v}</div></div>`;
+    h+=`<div class="stat-item"><span class="stat-label">${escapeHTML(f.label)}</span><div class="stat-vals">${v}</div></div>`;
   });
   h+='</div></div>';c.innerHTML+=h;
 }
@@ -1131,6 +1189,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   if(uz){['dragenter','dragover'].forEach(e=>uz.addEventListener(e,()=>uz.classList.add('dragover')));
   ['dragleave','drop'].forEach(e=>uz.addEventListener(e,()=>uz.classList.remove('dragover')));}
 });
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeAllModals();}});
+window.addEventListener('storage',e=>{if([SK,OBJ_CONFIG_KEY,AUTH_USERS_KEY].includes(e.key)){checkAuth();renderAll();showToast('🔄 Dati aggiornati da un’altra scheda','var(--blue)');}});
 
 // INIT
 function initApp(){
