@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "0ccb01f3f7bfbe79aa7d86e0de21d417c9094965d100f70c88cc5d9e95838806",
-  "aggiornato": "2026-09-26T22:58:19.123767+02:00",
+  "signature": "7bbb1be0d858842b290c787fa639cd989fb6d9d7db21c50517a07b2a97953006",
+  "aggiornato": "2026-09-26T23:05:42.332500+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -38,9 +38,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 245,
       "mesi_con_valore": 8,
-      "rapportini": 0,
-      "totale_documentato": 245,
-      "percentuale": 122.5
+      "rapportini": 1,
+      "totale_documentato": 246,
+      "percentuale": 123.0
     },
     {
       "id": "taxi_ncc",
@@ -508,7 +508,8 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-09": {
-      "taxi_ncc": 12
+      "taxi_ncc": 12,
+      "targa_estera": 1
     }
   },
   "altre_attivita": [
@@ -590,6 +591,11 @@
     {
       "categoria": "SUPPORTO_GDF",
       "unita": "interventi",
+      "quantita": 1
+    },
+    {
+      "categoria": "TARGHE_STRANIERE",
+      "unita": "controlli",
       "quantita": 1
     },
     {
