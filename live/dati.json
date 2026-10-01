@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "ddb0a2985c85d552fb0f07ee40e3e73160722a38d2b33782b7a4aa8127a45dd5",
-  "aggiornato": "2026-10-01T09:18:47.480676+02:00",
+  "signature": "94bbe95e8dee0a94f3dfe313b9f5ace2731cd477c911c03c8aa7217ca748def4",
+  "aggiornato": "2026-10-01T18:05:32.003246+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -767,7 +767,7 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": true,
+  "ingresso_disponibile": false,
   "copertura_rapportini": [
     "2026-09-10",
     "2026-09-19",
