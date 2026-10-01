@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "e30c2aeb8790451810a467db93f48bd5baef2a577244a4a40175e81a325a55b3",
-  "aggiornato": "2026-09-30T13:49:38.511456+02:00",
+  "signature": "a62aadbc20e49c95ee8778dff32afbc19b23fdd6f4070168e3b36a7ad8dffdb6",
+  "aggiornato": "2026-10-01T09:09:51.776250+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -86,9 +86,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 35,
       "mesi_con_valore": 8,
-      "rapportini": 0,
-      "totale_documentato": 35,
-      "percentuale": 79.55
+      "rapportini": 13,
+      "totale_documentato": 48,
+      "percentuale": 109.09
     },
     {
       "id": "cantiere_suolo",
@@ -509,7 +509,8 @@
   "mesi_rapportini": {
     "2026-09": {
       "taxi_ncc": 20,
-      "targa_estera": 1
+      "targa_estera": 1,
+      "interforze": 13
     }
   },
   "altre_attivita": [
@@ -520,6 +521,11 @@
     },
     {
       "categoria": "AMBIENTE",
+      "unita": "interventi",
+      "quantita": 1
+    },
+    {
+      "categoria": "ASSISTENZA_POLIZIA",
       "unita": "interventi",
       "quantita": 1
     },
@@ -559,9 +565,19 @@
       "quantita": 4
     },
     {
+      "categoria": "INTERFORZE",
+      "unita": "controlli",
+      "quantita": 13
+    },
+    {
       "categoria": "INTERVENTO_ASL",
       "unita": "interventi",
       "quantita": 1
+    },
+    {
+      "categoria": "NOTIFICHE",
+      "unita": "protocolli elencati",
+      "quantita": 19
     },
     {
       "categoria": "NOTIFICHE",
@@ -569,8 +585,28 @@
       "quantita": 37
     },
     {
+      "categoria": "OCCUPAZIONE_SUOLO",
+      "unita": "sopralluoghi",
+      "quantita": 1
+    },
+    {
+      "categoria": "OSTACOLO_CARREGGIATA",
+      "unita": "interventi",
+      "quantita": 1
+    },
+    {
+      "categoria": "RILIEVO_SINISTRO",
+      "unita": "interventi",
+      "quantita": 1
+    },
+    {
       "categoria": "RIMOZIONE",
       "unita": "interventi",
+      "quantita": 1
+    },
+    {
+      "categoria": "RIMOZIONE",
+      "unita": "veicoli",
       "quantita": 1
     },
     {
@@ -585,6 +621,16 @@
     },
     {
       "categoria": "SEGNALETICA",
+      "unita": "interventi",
+      "quantita": 1
+    },
+    {
+      "categoria": "SEQUESTRO_CDS",
+      "unita": "provvedimenti",
+      "quantita": 1
+    },
+    {
+      "categoria": "SINISTRO",
       "unita": "interventi",
       "quantita": 1
     },
@@ -604,6 +650,11 @@
       "quantita": 1
     },
     {
+      "categoria": "SUPPORTO_VVF",
+      "unita": "interventi",
+      "quantita": 1
+    },
+    {
       "categoria": "TARGHE_STRANIERE",
       "unita": "controlli",
       "quantita": 1
@@ -619,8 +670,18 @@
       "quantita": 2
     },
     {
+      "categoria": "VERIFICA_LAVORI_EDILI",
+      "unita": "sopralluoghi",
+      "quantita": 1
+    },
+    {
       "categoria": "VERIFICA_OCCUPAZIONE",
       "unita": "sopralluoghi",
+      "quantita": 1
+    },
+    {
+      "categoria": "VERIFICA_RUMORE",
+      "unita": "interventi",
       "quantita": 1
     }
   ],
@@ -715,7 +776,10 @@
     "2026-09-23",
     "2026-09-24",
     "2026-09-25",
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
   ],
   "fonti_excel": [
     "nuovo RA_05_2026_REPORT ATTIVITA' AGOSTO.xlsx",
