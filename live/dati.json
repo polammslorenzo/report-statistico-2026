@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "a62aadbc20e49c95ee8778dff32afbc19b23fdd6f4070168e3b36a7ad8dffdb6",
-  "aggiornato": "2026-10-01T09:09:51.776250+02:00",
+  "signature": "dcadd1266f4aea5726d36acea7df7784a6fa8a81e4b7ed6f9f0be038e9d9b49c",
+  "aggiornato": "2026-10-01T09:17:46.386563+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -86,9 +86,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 35,
       "mesi_con_valore": 8,
-      "rapportini": 13,
-      "totale_documentato": 48,
-      "percentuale": 109.09
+      "rapportini": 1,
+      "totale_documentato": 36,
+      "percentuale": 81.82
     },
     {
       "id": "cantiere_suolo",
@@ -510,7 +510,7 @@
     "2026-09": {
       "taxi_ncc": 20,
       "targa_estera": 1,
-      "interforze": 13
+      "interforze": 1
     }
   },
   "altre_attivita": [
@@ -566,8 +566,8 @@
     },
     {
       "categoria": "INTERFORZE",
-      "unita": "controlli",
-      "quantita": 13
+      "unita": "servizi",
+      "quantita": 1
     },
     {
       "categoria": "INTERVENTO_ASL",
