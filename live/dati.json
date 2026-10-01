@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "dcadd1266f4aea5726d36acea7df7784a6fa8a81e4b7ed6f9f0be038e9d9b49c",
-  "aggiornato": "2026-10-01T09:17:46.386563+02:00",
+  "signature": "ddb0a2985c85d552fb0f07ee40e3e73160722a38d2b33782b7a4aa8127a45dd5",
+  "aggiornato": "2026-10-01T09:18:47.480676+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -80,7 +80,7 @@
     },
     {
       "id": "interforze",
-      "label": "Controlli coordinati interforze",
+      "label": "Servizi interforze (controlli coordinati)",
       "target": 44,
       "cell": "B16",
       "categoria": "CONTROLLI CDS",
