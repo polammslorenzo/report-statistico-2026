@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "94bbe95e8dee0a94f3dfe313b9f5ace2731cd477c911c03c8aa7217ca748def4",
-  "aggiornato": "2026-10-01T18:05:32.003246+02:00",
+  "signature": "d517c5fa525996c01e9f05ded7380bd0173dc11d19436741d7ebf7f04b0f144e",
+  "aggiornato": "2026-10-05T18:06:33.181521+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -687,6 +687,11 @@
   ],
   "verifiche": [
     {
+      "tipo": "excel_mese_incoerente",
+      "mese": "2026-08",
+      "messaggio": "Un consuntivo nella cartella SETTEMBRE riporta AGOSTO nel foglio; escluso finché corretto."
+    },
+    {
       "tipo": "corrispondenza_RA",
       "mese": "2026-09",
       "categoria": "DEIEZIONI_CANINE",
@@ -767,7 +772,7 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-09-10",
     "2026-09-19",
@@ -782,13 +787,13 @@
     "2026-09-30"
   ],
   "fonti_excel": [
-    "nuovo RA_05_2026_REPORT ATTIVITA' AGOSTO.xlsx",
-    "nuovo RA_05_2026_REPORT ATTIVITA' APRILE.xlsx",
-    "RA_04_2025_REPORT FEBBRAIO 2026.xlsx",
-    "RA_04_2025_REPORT GENNAIO 2026.xlsx",
-    "nuovo RA_05_2026_REPORT ATTIVITA' GIUGNO.xlsx",
-    "nuovo RA_05_2026_REPORT ATTIVITA' LUGLIO.xlsx",
-    "nuovo RA_05_2026_REPORT ATTIVITA' MAGGIO.xlsx",
-    "RA_04_2025_REPORT marzo 2026.xlsx"
+    "Consuntivo agosto 2026",
+    "Consuntivo aprile 2026",
+    "Consuntivo febbraio 2026",
+    "Consuntivo gennaio 2026",
+    "Consuntivo giugno 2026",
+    "Consuntivo luglio 2026",
+    "Consuntivo maggio 2026",
+    "Consuntivo marzo 2026"
   ]
 }
