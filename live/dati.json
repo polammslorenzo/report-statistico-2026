@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "e2fd72d6e56e8ff348c233a32a447d2be0abe048fbe271a24cc09916d996e1c6",
-  "aggiornato": "2026-10-06T22:36:23.062909+02:00",
+  "signature": "fcb35b230b61f2a919b866b5f04dc02f9d5a6e5179d5338ce13b6929ca383bc8",
+  "aggiornato": "2026-10-06T22:43:03.724650+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -545,13 +545,8 @@
     },
     {
       "categoria": "ALTRO_RILEVANTE",
-      "unita": "veicoli",
-      "quantita": 7
-    },
-    {
-      "categoria": "ALTRO_RILEVANTE",
       "unita": "verbali",
-      "quantita": 16
+      "quantita": 23
     },
     {
       "categoria": "DEIEZIONI_CANINE",
