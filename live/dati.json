@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "d517c5fa525996c01e9f05ded7380bd0173dc11d19436741d7ebf7f04b0f144e",
-  "aggiornato": "2026-10-05T18:06:33.181521+02:00",
+  "signature": "b151e52f0b9418d9e0e7cd3f4aedba6c0045cdd4c26e596587adf2843c1f000b",
+  "aggiornato": "2026-10-06T18:01:01.890709+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -12,11 +12,11 @@
       "target": 9035,
       "cell": "B9",
       "categoria": "CONTROLLI CDS",
-      "consuntivo": 7620,
-      "mesi_con_valore": 8,
+      "consuntivo": 9220,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 7620,
-      "percentuale": 84.34
+      "totale_documentato": 9220,
+      "percentuale": 102.05
     },
     {
       "id": "autotrasporti",
@@ -24,11 +24,11 @@
       "target": 182,
       "cell": "B10",
       "categoria": "CONTROLLI CDS",
-      "consuntivo": 85,
-      "mesi_con_valore": 8,
+      "consuntivo": 92,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 85,
-      "percentuale": 46.7
+      "totale_documentato": 92,
+      "percentuale": 50.55
     },
     {
       "id": "targa_estera",
@@ -36,11 +36,11 @@
       "target": 200,
       "cell": "B11",
       "categoria": "CONTROLLI CDS",
-      "consuntivo": 245,
-      "mesi_con_valore": 8,
-      "rapportini": 1,
-      "totale_documentato": 246,
-      "percentuale": 123.0
+      "consuntivo": 252,
+      "mesi_con_valore": 9,
+      "rapportini": 0,
+      "totale_documentato": 252,
+      "percentuale": 126.0
     },
     {
       "id": "taxi_ncc",
@@ -48,9 +48,9 @@
       "target": 480,
       "cell": "B12",
       "categoria": "CONTROLLI CDS",
-      "consuntivo": 318,
-      "mesi_con_valore": 8,
-      "rapportini": 20,
+      "consuntivo": 338,
+      "mesi_con_valore": 9,
+      "rapportini": 0,
       "totale_documentato": 338,
       "percentuale": 70.42
     },
@@ -60,11 +60,11 @@
       "target": 174,
       "cell": "B13",
       "categoria": "CONTROLLI CDS",
-      "consuntivo": 133,
-      "mesi_con_valore": 8,
+      "consuntivo": 146,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 133,
-      "percentuale": 76.44
+      "totale_documentato": 146,
+      "percentuale": 83.91
     },
     {
       "id": "autorimesse",
@@ -72,11 +72,11 @@
       "target": 45,
       "cell": "B14",
       "categoria": "CONTROLLI CDS",
-      "consuntivo": 34,
-      "mesi_con_valore": 8,
+      "consuntivo": 37,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 34,
-      "percentuale": 75.56
+      "totale_documentato": 37,
+      "percentuale": 82.22
     },
     {
       "id": "interforze",
@@ -84,11 +84,11 @@
       "target": 44,
       "cell": "B16",
       "categoria": "CONTROLLI CDS",
-      "consuntivo": 35,
-      "mesi_con_valore": 8,
-      "rapportini": 1,
-      "totale_documentato": 36,
-      "percentuale": 81.82
+      "consuntivo": 42,
+      "mesi_con_valore": 9,
+      "rapportini": 0,
+      "totale_documentato": 42,
+      "percentuale": 95.45
     },
     {
       "id": "cantiere_suolo",
@@ -120,11 +120,11 @@
       "target": 123,
       "cell": "B76",
       "categoria": "CONTROLLI EDILIZIA",
-      "consuntivo": 93,
-      "mesi_con_valore": 8,
+      "consuntivo": 103,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 93,
-      "percentuale": 75.61
+      "totale_documentato": 103,
+      "percentuale": 83.74
     },
     {
       "id": "notifiche_sic",
@@ -132,11 +132,11 @@
       "target": 150,
       "cell": "B83",
       "categoria": "CONTROLLI EDILIZIA",
-      "consuntivo": 217,
-      "mesi_con_valore": 8,
+      "consuntivo": 285,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 217,
-      "percentuale": 144.67
+      "totale_documentato": 285,
+      "percentuale": 190.0
     },
     {
       "id": "ambulanti",
@@ -144,11 +144,11 @@
       "target": 8468,
       "cell": "B95",
       "categoria": "CONTROLLI COMMERCIO",
-      "consuntivo": 7550,
-      "mesi_con_valore": 8,
+      "consuntivo": 9150,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 7550,
-      "percentuale": 89.16
+      "totale_documentato": 9150,
+      "percentuale": 108.05
     },
     {
       "id": "dehors",
@@ -156,11 +156,11 @@
       "target": 683,
       "cell": "B93",
       "categoria": "CONTROLLI COMMERCIO",
-      "consuntivo": 773,
-      "mesi_con_valore": 8,
+      "consuntivo": 785,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 773,
-      "percentuale": 113.18
+      "totale_documentato": 785,
+      "percentuale": 114.93
     },
     {
       "id": "prov_alim",
@@ -168,11 +168,11 @@
       "target": 234,
       "cell": "B96",
       "categoria": "CONTROLLI COMMERCIO",
-      "consuntivo": 151,
-      "mesi_con_valore": 8,
+      "consuntivo": 173,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 151,
-      "percentuale": 64.53
+      "totale_documentato": 173,
+      "percentuale": 73.93
     },
     {
       "id": "igien_trasp",
@@ -180,11 +180,11 @@
       "target": 181,
       "cell": "B94",
       "categoria": "CONTROLLI COMMERCIO",
-      "consuntivo": 85,
-      "mesi_con_valore": 8,
+      "consuntivo": 92,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 85,
-      "percentuale": 46.96
+      "totale_documentato": 92,
+      "percentuale": 50.83
     },
     {
       "id": "officine",
@@ -192,11 +192,11 @@
       "target": 15,
       "cell": "B97",
       "categoria": "CONTROLLI COMMERCIO",
-      "consuntivo": 13,
-      "mesi_con_valore": 8,
+      "consuntivo": 14,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 13,
-      "percentuale": 86.67
+      "totale_documentato": 14,
+      "percentuale": 93.33
     },
     {
       "id": "alcoliche",
@@ -205,7 +205,7 @@
       "cell": "B98",
       "categoria": "CONTROLLI COMMERCIO",
       "consuntivo": 52,
-      "mesi_con_valore": 7,
+      "mesi_con_valore": 8,
       "rapportini": 0,
       "totale_documentato": 52,
       "percentuale": 162.5
@@ -216,11 +216,11 @@
       "target": 170,
       "cell": "B99",
       "categoria": "CONTROLLI COMMERCIO",
-      "consuntivo": 138,
-      "mesi_con_valore": 8,
+      "consuntivo": 157,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 138,
-      "percentuale": 81.18
+      "totale_documentato": 157,
+      "percentuale": 92.35
     },
     {
       "id": "movida",
@@ -228,11 +228,11 @@
       "target": 32,
       "cell": "B100",
       "categoria": "CONTROLLI COMMERCIO",
-      "consuntivo": 93,
-      "mesi_con_valore": 7,
+      "consuntivo": 95,
+      "mesi_con_valore": 8,
       "rapportini": 0,
-      "totale_documentato": 93,
-      "percentuale": 290.62
+      "totale_documentato": 95,
+      "percentuale": 296.88
     },
     {
       "id": "acustico",
@@ -240,11 +240,11 @@
       "target": 650,
       "cell": "B127",
       "categoria": "CONTROLLI AMBIENTE",
-      "consuntivo": 747,
-      "mesi_con_valore": 8,
+      "consuntivo": 751,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 747,
-      "percentuale": 114.92
+      "totale_documentato": 751,
+      "percentuale": 115.54
     },
     {
       "id": "sversamento",
@@ -252,11 +252,11 @@
       "target": 735,
       "cell": "B128",
       "categoria": "CONTROLLI AMBIENTE",
-      "consuntivo": 707,
-      "mesi_con_valore": 8,
+      "consuntivo": 711,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 707,
-      "percentuale": 96.19
+      "totale_documentato": 711,
+      "percentuale": 96.73
     },
     {
       "id": "deiezioni",
@@ -264,11 +264,11 @@
       "target": 63,
       "cell": "B129",
       "categoria": "CONTROLLI AMBIENTE",
-      "consuntivo": 30,
-      "mesi_con_valore": 6,
+      "consuntivo": 45,
+      "mesi_con_valore": 7,
       "rapportini": 0,
-      "totale_documentato": 30,
-      "percentuale": 47.62
+      "totale_documentato": 45,
+      "percentuale": 71.43
     },
     {
       "id": "antifumo",
@@ -276,11 +276,11 @@
       "target": 692,
       "cell": "B130",
       "categoria": "CONTROLLI AMBIENTE",
-      "consuntivo": 743,
-      "mesi_con_valore": 6,
+      "consuntivo": 747,
+      "mesi_con_valore": 7,
       "rapportini": 0,
-      "totale_documentato": 743,
-      "percentuale": 107.37
+      "totale_documentato": 747,
+      "percentuale": 107.95
     },
     {
       "id": "residui_merc",
@@ -288,11 +288,11 @@
       "target": 2800,
       "cell": "B131",
       "categoria": "CONTROLLI AMBIENTE",
-      "consuntivo": 7510,
-      "mesi_con_valore": 8,
+      "consuntivo": 9110,
+      "mesi_con_valore": 9,
       "rapportini": 0,
-      "totale_documentato": 7510,
-      "percentuale": 268.21
+      "totale_documentato": 9110,
+      "percentuale": 325.36
     }
   ],
   "mesi_excel": {
@@ -503,210 +503,38 @@
       "deiezioni": null,
       "antifumo": 85,
       "residui_merc": 750
+    },
+    "2026-09": {
+      "occ_suolo": 1600,
+      "autotrasporti": 7,
+      "targa_estera": 7,
+      "taxi_ncc": 20,
+      "parch_abusivi": 13,
+      "autorimesse": 3,
+      "interforze": 7,
+      "cantiere_suolo": null,
+      "lavori_protezione": null,
+      "cantieri_seq": 10,
+      "notifiche_sic": 68,
+      "ambulanti": 1600,
+      "dehors": 12,
+      "prov_alim": 22,
+      "igien_trasp": 7,
+      "officine": 1,
+      "alcoliche": 0,
+      "bb_extra": 19,
+      "movida": 2,
+      "acustico": 4,
+      "sversamento": 4,
+      "deiezioni": 15,
+      "antifumo": 4,
+      "residui_merc": 1600
     }
   },
   "excel_mese_in_corso": {},
-  "mesi_rapportini": {
-    "2026-09": {
-      "taxi_ncc": 20,
-      "targa_estera": 1,
-      "interforze": 1
-    }
-  },
-  "altre_attivita": [
-    {
-      "categoria": "ACQUISIZIONE_VIDEO",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "AMBIENTE",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "ASSISTENZA_POLIZIA",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "ATP",
-      "unita": "controlli",
-      "quantita": 1
-    },
-    {
-      "categoria": "CONTROLLO_COMMERCIALE",
-      "unita": "accessi_documentati",
-      "quantita": 1
-    },
-    {
-      "categoria": "DEIEZIONI_CANINE",
-      "unita": "cani",
-      "quantita": 10
-    },
-    {
-      "categoria": "DISSESTO_STRADALE",
-      "unita": "segnalazioni",
-      "quantita": 1
-    },
-    {
-      "categoria": "ESPOSTO",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "ESPOSTO_CANTIERE",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "INCIDENTE",
-      "unita": "incidenti",
-      "quantita": 4
-    },
-    {
-      "categoria": "INTERFORZE",
-      "unita": "servizi",
-      "quantita": 1
-    },
-    {
-      "categoria": "INTERVENTO_ASL",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "NOTIFICHE",
-      "unita": "protocolli elencati",
-      "quantita": 19
-    },
-    {
-      "categoria": "NOTIFICHE",
-      "unita": "voci_documentate",
-      "quantita": 37
-    },
-    {
-      "categoria": "OCCUPAZIONE_SUOLO",
-      "unita": "sopralluoghi",
-      "quantita": 1
-    },
-    {
-      "categoria": "OSTACOLO_CARREGGIATA",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "RILIEVO_SINISTRO",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "RIMOZIONE",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "RIMOZIONE",
-      "unita": "veicoli",
-      "quantita": 1
-    },
-    {
-      "categoria": "RIMOZIONE",
-      "unita": "veicoli_rimossi",
-      "quantita": 12
-    },
-    {
-      "categoria": "SANZIONI_RIMOZIONE",
-      "unita": "veicoli_sanzionati",
-      "quantita": 7
-    },
-    {
-      "categoria": "SEGNALETICA",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "SEQUESTRO_CDS",
-      "unita": "provvedimenti",
-      "quantita": 1
-    },
-    {
-      "categoria": "SINISTRO",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "STALLI_DISABILI",
-      "unita": "interventi",
-      "quantita": 2
-    },
-    {
-      "categoria": "STALLI_DISABILI",
-      "unita": "verbali",
-      "quantita": 1
-    },
-    {
-      "categoria": "SUPPORTO_GDF",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "SUPPORTO_VVF",
-      "unita": "interventi",
-      "quantita": 1
-    },
-    {
-      "categoria": "TARGHE_STRANIERE",
-      "unita": "controlli",
-      "quantita": 1
-    },
-    {
-      "categoria": "TAXI",
-      "unita": "controlli",
-      "quantita": 20
-    },
-    {
-      "categoria": "VEICOLI_ABBANDONATI",
-      "unita": "veicoli",
-      "quantita": 2
-    },
-    {
-      "categoria": "VERIFICA_LAVORI_EDILI",
-      "unita": "sopralluoghi",
-      "quantita": 1
-    },
-    {
-      "categoria": "VERIFICA_OCCUPAZIONE",
-      "unita": "sopralluoghi",
-      "quantita": 1
-    },
-    {
-      "categoria": "VERIFICA_RUMORE",
-      "unita": "interventi",
-      "quantita": 1
-    }
-  ],
+  "mesi_rapportini": {},
+  "altre_attivita": [],
   "verifiche": [
-    {
-      "tipo": "excel_mese_incoerente",
-      "mese": "2026-08",
-      "messaggio": "Un consuntivo nella cartella SETTEMBRE riporta AGOSTO nel foglio; escluso finché corretto."
-    },
-    {
-      "tipo": "corrispondenza_RA",
-      "mese": "2026-09",
-      "categoria": "DEIEZIONI_CANINE",
-      "quantita": 10,
-      "unita": "cani",
-      "messaggio": "Dato estratto confermato. Verificare il criterio di conteggio e la corrispondenza all’obiettivo RA prima di sommarlo."
-    },
-    {
-      "tipo": "corrispondenza_RA",
-      "mese": "2026-09",
-      "categoria": "ATP",
-      "quantita": 1,
-      "unita": "controlli",
-      "messaggio": "Dato estratto confermato. Verificare il criterio di conteggio e la corrispondenza all’obiettivo RA prima di sommarlo."
-    },
     {
       "tipo": "rapportino",
       "mese": null,
@@ -772,20 +600,8 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": true,
-  "copertura_rapportini": [
-    "2026-09-10",
-    "2026-09-19",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-23",
-    "2026-09-24",
-    "2026-09-25",
-    "2026-09-26",
-    "2026-09-28",
-    "2026-09-29",
-    "2026-09-30"
-  ],
+  "ingresso_disponibile": false,
+  "copertura_rapportini": [],
   "fonti_excel": [
     "Consuntivo agosto 2026",
     "Consuntivo aprile 2026",
@@ -794,6 +610,7 @@
     "Consuntivo giugno 2026",
     "Consuntivo luglio 2026",
     "Consuntivo maggio 2026",
-    "Consuntivo marzo 2026"
+    "Consuntivo marzo 2026",
+    "Consuntivo settembre 2026"
   ]
 }
