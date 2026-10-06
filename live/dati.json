@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "fcb35b230b61f2a919b866b5f04dc02f9d5a6e5179d5338ce13b6929ca383bc8",
-  "aggiornato": "2026-10-06T22:43:03.724650+02:00",
+  "signature": "06024bbb93e1658d81ff88265f893d785cf442b1901497fd1e120f664ab5e730",
+  "aggiornato": "2026-10-06T22:46:50.649765+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -266,9 +266,9 @@
       "categoria": "CONTROLLI AMBIENTE",
       "consuntivo": 45,
       "mesi_con_valore": 7,
-      "rapportini": 0,
-      "totale_documentato": 45,
-      "percentuale": 71.43
+      "rapportini": 4,
+      "totale_documentato": 49,
+      "percentuale": 77.78
     },
     {
       "id": "antifumo",
@@ -534,7 +534,8 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 13
+      "taxi_ncc": 13,
+      "deiezioni": 4
     }
   },
   "altre_attivita": [
@@ -550,7 +551,7 @@
     },
     {
       "categoria": "DEIEZIONI_CANINE",
-      "unita": "cani",
+      "unita": "controlli",
       "quantita": 4
     },
     {
@@ -570,14 +571,6 @@
     }
   ],
   "verifiche": [
-    {
-      "tipo": "corrispondenza_RA",
-      "mese": "2026-10",
-      "categoria": "DEIEZIONI_CANINE",
-      "quantita": 4,
-      "unita": "cani",
-      "messaggio": "Dato estratto confermato. Verificare il criterio di conteggio e la corrispondenza all’obiettivo RA prima di sommarlo."
-    },
     {
       "tipo": "rapportino",
       "mese": null,
