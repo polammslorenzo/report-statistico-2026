@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "629e5418f3ba381e574002fd8fa5ca99110aa5446301fb54f3bb99cddd808e71",
-  "aggiornato": "2026-10-06T22:27:15.118854+02:00",
+  "signature": "e2fd72d6e56e8ff348c233a32a447d2be0abe048fbe271a24cc09916d996e1c6",
+  "aggiornato": "2026-10-06T22:36:23.062909+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 0,
-      "totale_documentato": 338,
-      "percentuale": 70.42
+      "rapportini": 13,
+      "totale_documentato": 351,
+      "percentuale": 73.12
     },
     {
       "id": "parch_abusivi",
@@ -532,9 +532,57 @@
     }
   },
   "excel_mese_in_corso": {},
-  "mesi_rapportini": {},
-  "altre_attivita": [],
+  "mesi_rapportini": {
+    "2026-10": {
+      "taxi_ncc": 13
+    }
+  },
+  "altre_attivita": [
+    {
+      "categoria": "ALTRO_RILEVANTE",
+      "unita": "rimozioni",
+      "quantita": 1
+    },
+    {
+      "categoria": "ALTRO_RILEVANTE",
+      "unita": "veicoli",
+      "quantita": 7
+    },
+    {
+      "categoria": "ALTRO_RILEVANTE",
+      "unita": "verbali",
+      "quantita": 16
+    },
+    {
+      "categoria": "DEIEZIONI_CANINE",
+      "unita": "cani",
+      "quantita": 4
+    },
+    {
+      "categoria": "NCC",
+      "unita": "controlli",
+      "quantita": 1
+    },
+    {
+      "categoria": "RIMOZIONE",
+      "unita": "veicoli",
+      "quantita": 4
+    },
+    {
+      "categoria": "TAXI",
+      "unita": "controlli",
+      "quantita": 12
+    }
+  ],
   "verifiche": [
+    {
+      "tipo": "corrispondenza_RA",
+      "mese": "2026-10",
+      "categoria": "DEIEZIONI_CANINE",
+      "quantita": 4,
+      "unita": "cani",
+      "messaggio": "Dato estratto confermato. Verificare il criterio di conteggio e la corrispondenza all’obiettivo RA prima di sommarlo."
+    },
     {
       "tipo": "rapportino",
       "mese": null,
@@ -598,10 +646,22 @@
       "quantita": null,
       "unita": null,
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "INTERFORZE",
+      "quantita": 1,
+      "unita": "servizi",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
   "ingresso_disponibile": true,
-  "copertura_rapportini": [],
+  "copertura_rapportini": [
+    "2026-10-01",
+    "2026-10-03",
+    "2026-10-05"
+  ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
     "Consuntivo aprile 2026",
