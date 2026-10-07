@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "06024bbb93e1658d81ff88265f893d785cf442b1901497fd1e120f664ab5e730",
-  "aggiornato": "2026-10-06T22:46:50.649765+02:00",
+  "signature": "0c5d287273f4d40a88eda2739ffc98b832a8fb1e8c13da90153192414dd762f9",
+  "aggiornato": "2026-10-07T08:39:55.841866+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target riportati dal sito esistente, indicati come master obiettivi 2025.",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 13,
-      "totale_documentato": 351,
-      "percentuale": 73.12
+      "rapportini": 16,
+      "totale_documentato": 354,
+      "percentuale": 73.75
     },
     {
       "id": "parch_abusivi",
@@ -266,9 +266,9 @@
       "categoria": "CONTROLLI AMBIENTE",
       "consuntivo": 45,
       "mesi_con_valore": 7,
-      "rapportini": 4,
-      "totale_documentato": 49,
-      "percentuale": 77.78
+      "rapportini": 10,
+      "totale_documentato": 55,
+      "percentuale": 87.3
     },
     {
       "id": "antifumo",
@@ -534,25 +534,15 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 13,
-      "deiezioni": 4
+      "taxi_ncc": 16,
+      "deiezioni": 10
     }
   },
   "altre_attivita": [
     {
-      "categoria": "ALTRO_RILEVANTE",
-      "unita": "rimozioni",
-      "quantita": 1
-    },
-    {
-      "categoria": "ALTRO_RILEVANTE",
-      "unita": "verbali",
-      "quantita": 23
-    },
-    {
       "categoria": "DEIEZIONI_CANINE",
       "unita": "controlli",
-      "quantita": 4
+      "quantita": 10
     },
     {
       "categoria": "NCC",
@@ -567,7 +557,7 @@
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 12
+      "quantita": 15
     }
   ],
   "verifiche": [
@@ -642,13 +632,22 @@
       "quantita": 1,
       "unita": "servizi",
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "TARGHE_STRANIERE",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
   "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-06"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
