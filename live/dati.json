@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "7ec2b3fc917d810d3ff15961074435cf296dbb15b298103317a0feeee985c0ed",
-  "aggiornato": "2026-10-07T22:20:13.631014+02:00",
+  "signature": "2ec5c90468788760ad1387e10bed1361953ca47209b29b5cbfa9472cd1482011",
+  "aggiornato": "2026-10-08T16:44:55.783934+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -619,14 +619,40 @@
       "quantita": null,
       "unita": "controlli",
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "TARGHE_STRANIERE",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "CONTROLLI_CDS",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "SEQUESTRI",
+      "quantita": null,
+      "unita": "provvedimenti",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
