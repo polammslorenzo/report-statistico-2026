@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "2ec5c90468788760ad1387e10bed1361953ca47209b29b5cbfa9472cd1482011",
-  "aggiornato": "2026-10-08T16:44:55.783934+02:00",
+  "signature": "4e7cc56d3a5169dc774abde6b711ed9a0831fe40ec3599057e0e156d0b179347",
+  "aggiornato": "2026-10-09T08:51:53.996164+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -254,9 +254,9 @@
       "categoria": "CONTROLLI AMBIENTE",
       "consuntivo": 45,
       "mesi_con_valore": 7,
-      "rapportini": 10,
-      "totale_documentato": 55,
-      "percentuale": 83.33
+      "rapportini": 17,
+      "totale_documentato": 62,
+      "percentuale": 93.94
     },
     {
       "id": "antifumo",
@@ -514,14 +514,14 @@
   "mesi_rapportini": {
     "2026-10": {
       "taxi_ncc": 16,
-      "deiezioni": 10
+      "deiezioni": 17
     }
   },
   "altre_attivita": [
     {
       "categoria": "DEIEZIONI_CANINE",
       "unita": "controlli",
-      "quantita": 10
+      "quantita": 17
     },
     {
       "categoria": "NCC",
@@ -642,6 +642,38 @@
       "categoria": "SEQUESTRI",
       "quantita": null,
       "unita": "provvedimenti",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "CONTROLLI_CDS",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "CONTROLLI_CDS",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "TARGHE_STRANIERE",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "ALTRO_RILEVANTE",
+      "quantita": null,
+      "unita": null,
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
