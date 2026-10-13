@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "a5a8ed3b9eb9a3460de32aadaf9be3398899674781217b3a8d7c9053d0dd5e1e",
-  "aggiornato": "2026-10-12T21:30:43.460239+02:00",
+  "signature": "6a13f330684492585ea693cb588065a1b5b0876480d246b2c4b7e441a82b43d3",
+  "aggiornato": "2026-10-13T09:17:02.649634+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -667,9 +667,17 @@
       "quantita": null,
       "unita": null,
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "INTERFORZE",
+      "quantita": null,
+      "unita": "servizi",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
