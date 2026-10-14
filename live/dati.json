@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "3501eb6b5f3c66e6de4a56afe000d6d71351cbf49b0f2eeebdf0d9c56b503f19",
-  "aggiornato": "2026-10-13T20:17:55.423629+02:00",
+  "signature": "1e26529ba55625533c934f37416f6b3f8140b4d6baff4d30685f8b4b207a1a09",
+  "aggiornato": "2026-10-14T08:41:08.014318+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -14,9 +14,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 9220,
       "mesi_con_valore": 9,
-      "rapportini": 0,
-      "totale_documentato": 9220,
-      "percentuale": 93.4
+      "rapportini": 1,
+      "totale_documentato": 9221,
+      "percentuale": 93.42
     },
     {
       "id": "autotrasporti",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 24,
-      "totale_documentato": 362,
-      "percentuale": 72.26
+      "rapportini": 30,
+      "totale_documentato": 368,
+      "percentuale": 73.45
     },
     {
       "id": "parch_abusivi",
@@ -254,9 +254,9 @@
       "categoria": "CONTROLLI AMBIENTE",
       "consuntivo": 45,
       "mesi_con_valore": 7,
-      "rapportini": 17,
-      "totale_documentato": 62,
-      "percentuale": 93.94
+      "rapportini": 21,
+      "totale_documentato": 66,
+      "percentuale": 100.0
     },
     {
       "id": "antifumo",
@@ -513,16 +513,17 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 24,
-      "deiezioni": 17,
-      "targa_estera": 1
+      "taxi_ncc": 30,
+      "deiezioni": 21,
+      "targa_estera": 1,
+      "occ_suolo": 1
     }
   },
   "altre_attivita": [
     {
       "categoria": "DEIEZIONI_CANINE",
       "unita": "controlli",
-      "quantita": 17
+      "quantita": 21
     },
     {
       "categoria": "NCC",
@@ -530,9 +531,34 @@
       "quantita": 1
     },
     {
+      "categoria": "NOTIFICHE",
+      "unita": "protocolli_elencati",
+      "quantita": 10
+    },
+    {
+      "categoria": "OCCUPAZIONE_SUOLO",
+      "unita": "controlli",
+      "quantita": 1
+    },
+    {
+      "categoria": "RIMOZIONE",
+      "unita": "rimozioni",
+      "quantita": 6
+    },
+    {
       "categoria": "RIMOZIONE",
       "unita": "veicoli",
       "quantita": 4
+    },
+    {
+      "categoria": "SEQUESTRO_CDS",
+      "unita": "sequestri_amministrativi_CdS",
+      "quantita": 2
+    },
+    {
+      "categoria": "STALLI_DISABILI",
+      "unita": "verifiche_contrassegni",
+      "quantita": 1
     },
     {
       "categoria": "TARGHE_STRANIERE",
@@ -542,7 +568,7 @@
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 23
+      "quantita": 29
     }
   ],
   "verifiche": [
@@ -673,9 +699,25 @@
       "quantita": null,
       "unita": null,
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "SEQUESTRO_CDS",
+      "quantita": null,
+      "unita": "sequestri_amministrativi_CdS",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "CONTROLLO_COMMERCIALE",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
@@ -685,7 +727,8 @@
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
