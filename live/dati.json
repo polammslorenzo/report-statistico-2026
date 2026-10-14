@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "1e26529ba55625533c934f37416f6b3f8140b4d6baff4d30685f8b4b207a1a09",
-  "aggiornato": "2026-10-14T08:41:08.014318+02:00",
+  "signature": "40f24279718a6ee78b1759b9cb32168a115c386cb7065821261b836475016f59",
+  "aggiornato": "2026-10-14T08:47:36.280562+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 30,
-      "totale_documentato": 368,
-      "percentuale": 73.45
+      "rapportini": 34,
+      "totale_documentato": 372,
+      "percentuale": 74.25
     },
     {
       "id": "parch_abusivi",
@@ -513,7 +513,7 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 30,
+      "taxi_ncc": 34,
       "deiezioni": 21,
       "targa_estera": 1,
       "occ_suolo": 1
@@ -568,7 +568,7 @@
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 29
+      "quantita": 33
     }
   ],
   "verifiche": [
