@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "283d8028e0f32b506673b2f2de1d6360645a966bfd23befe6ebdfecd0a675bbb",
-  "aggiornato": "2026-10-15T18:03:08.489031+02:00",
+  "signature": "4d4a5972e103a54c1a77081d8ecca28d2d0d26602122e5267b3ab80a52d60184",
+  "aggiornato": "2026-10-15T22:04:34.546707+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -86,9 +86,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 42,
       "mesi_con_valore": 9,
-      "rapportini": 0,
-      "totale_documentato": 42,
-      "percentuale": 84.0
+      "rapportini": 1,
+      "totale_documentato": 43,
+      "percentuale": 86.0
     },
     {
       "id": "lavori_protezione",
@@ -516,7 +516,8 @@
       "taxi_ncc": 39,
       "deiezioni": 21,
       "targa_estera": 1,
-      "occ_suolo": 1
+      "occ_suolo": 1,
+      "interforze": 1
     }
   },
   "altre_attivita": [
@@ -524,6 +525,11 @@
       "categoria": "DEIEZIONI_CANINE",
       "unita": "controlli",
       "quantita": 21
+    },
+    {
+      "categoria": "INTERFORZE",
+      "unita": "servizi",
+      "quantita": 1
     },
     {
       "categoria": "NCC",
@@ -639,14 +645,6 @@
       "categoria": "TARGHE_STRANIERE",
       "quantita": null,
       "unita": null,
-      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
-    },
-    {
-      "tipo": "rapportino",
-      "mese": "2026-10",
-      "categoria": "INTERFORZE",
-      "quantita": 1,
-      "unita": "servizi",
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     },
     {
