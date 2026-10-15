@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "c7d6a59e65a93425ff337b789b709f2c787ed03475aed5e7046e45fae5023182",
-  "aggiornato": "2026-10-14T17:58:56.357503+02:00",
+  "signature": "57e6fd264f7beddf0ec2a4d62a56ac1e96ce140a45d590b7689aeb791414ebba",
+  "aggiornato": "2026-10-15T12:30:57.589761+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 34,
-      "totale_documentato": 372,
-      "percentuale": 74.25
+      "rapportini": 39,
+      "totale_documentato": 377,
+      "percentuale": 75.25
     },
     {
       "id": "parch_abusivi",
@@ -513,7 +513,7 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 34,
+      "taxi_ncc": 39,
       "deiezioni": 21,
       "targa_estera": 1,
       "occ_suolo": 1
@@ -543,7 +543,7 @@
     {
       "categoria": "RIMOZIONE",
       "unita": "rimozioni",
-      "quantita": 6
+      "quantita": 7
     },
     {
       "categoria": "RIMOZIONE",
@@ -553,7 +553,7 @@
     {
       "categoria": "SEQUESTRO_CDS",
       "unita": "sequestri_amministrativi_CdS",
-      "quantita": 2
+      "quantita": 4
     },
     {
       "categoria": "STALLI_DISABILI",
@@ -568,7 +568,12 @@
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 33
+      "quantita": 38
+    },
+    {
+      "categoria": "VEICOLO_RECUPERATO",
+      "unita": "veicoli_recuperati",
+      "quantita": 1
     }
   ],
   "verifiche": [
@@ -715,9 +720,17 @@
       "quantita": null,
       "unita": "controlli",
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "TARGHE_STRANIERE",
+      "quantita": null,
+      "unita": "controlli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
@@ -728,7 +741,8 @@
     "2026-10-09",
     "2026-10-10",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-14"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
