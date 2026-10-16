@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "d0a18e4fed1bbc699acd4381401b42de68594b268a741bfcee0ec607f719cdcf",
-  "aggiornato": "2026-10-16T13:31:35.878688+02:00",
+  "signature": "10f3c3ee9ee3fb305a2e866a3b42bc8b74c7613f5d8cef887b2b7f9452995219",
+  "aggiornato": "2026-10-16T13:35:14.914837+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -523,7 +523,7 @@
   "altre_attivita": [
     {
       "categoria": "ATP",
-      "unita": "controlli_dichiarati",
+      "unita": "controlli",
       "quantita": 3
     },
     {
@@ -628,7 +628,7 @@
       "mese": "2026-10",
       "categoria": "ATP",
       "quantita": 3,
-      "unita": "controlli_dichiarati",
+      "unita": "controlli",
       "messaggio": "Dato estratto confermato. Verificare il criterio di conteggio e la corrispondenza all’obiettivo RA prima di sommarlo."
     },
     {
