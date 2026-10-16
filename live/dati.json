@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "10f3c3ee9ee3fb305a2e866a3b42bc8b74c7613f5d8cef887b2b7f9452995219",
-  "aggiornato": "2026-10-16T13:35:14.914837+02:00",
+  "signature": "51e0b5ecd8f921d3882e4595d53333cbbf8ab704ed4fbb5931460836db9c40f9",
+  "aggiornato": "2026-10-16T13:46:05.662958+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -763,14 +763,6 @@
       "tipo": "rapportino",
       "mese": "2026-10",
       "categoria": "CONTROLLO_COMMERCIALE",
-      "quantita": null,
-      "unita": "controlli",
-      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
-    },
-    {
-      "tipo": "rapportino",
-      "mese": "2026-10",
-      "categoria": "TARGHE_STRANIERE",
       "quantita": null,
       "unita": "controlli",
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
