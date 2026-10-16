@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "51e0b5ecd8f921d3882e4595d53333cbbf8ab704ed4fbb5931460836db9c40f9",
-  "aggiornato": "2026-10-16T13:46:05.662958+02:00",
+  "signature": "66396d845153a21683bae777eb4bd82581ed0e319463b305cc5a18884022a02d",
+  "aggiornato": "2026-10-16T13:53:53.042903+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -26,9 +26,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 92,
       "mesi_con_valore": 9,
-      "rapportini": 0,
-      "totale_documentato": 92,
-      "percentuale": 47.42
+      "rapportini": 3,
+      "totale_documentato": 95,
+      "percentuale": 48.97
     },
     {
       "id": "targa_estera",
@@ -517,7 +517,8 @@
       "deiezioni": 24,
       "targa_estera": 1,
       "occ_suolo": 1,
-      "interforze": 1
+      "interforze": 1,
+      "autotrasporti": 3
     }
   },
   "altre_attivita": [
@@ -624,12 +625,12 @@
   ],
   "verifiche": [
     {
-      "tipo": "corrispondenza_RA",
+      "tipo": "dettaglio_retro",
       "mese": "2026-10",
       "categoria": "ATP",
       "quantita": 3,
       "unita": "controlli",
-      "messaggio": "Dato estratto confermato. Verificare il criterio di conteggio e la corrispondenza all’obiettivo RA prima di sommarlo."
+      "messaggio": "Quantità A.T.P. dichiarata sul fronte e inclusa nei controlli autotrasporti; le singole righe del retro non sono attribuibili con certezza."
     },
     {
       "tipo": "rapportino",
