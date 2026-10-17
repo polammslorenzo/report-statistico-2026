@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "dfd1c0bbec4a8a141e5868043fc444c1889eb93b2d5915ca7db4a504376d820e",
-  "aggiornato": "2026-10-17T10:24:46.671146+02:00",
+  "signature": "3b2a3aa2cce65126dee2009e3db31bf80adc4d341be9e1b14daa672a2f8a5141",
+  "aggiornato": "2026-10-17T18:02:52.694779+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -787,7 +787,7 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": true,
+  "ingresso_disponibile": false,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
