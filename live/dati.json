@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "b567010ad45d65f0e8fc71586be9685cd3c03208ee876f7c248d63e148d4dfa7",
-  "aggiornato": "2026-10-16T17:58:23.521058+02:00",
+  "signature": "dfd1c0bbec4a8a141e5868043fc444c1889eb93b2d5915ca7db4a504376d820e",
+  "aggiornato": "2026-10-17T10:24:46.671146+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 45,
-      "totale_documentato": 383,
-      "percentuale": 76.45
+      "rapportini": 49,
+      "totale_documentato": 387,
+      "percentuale": 77.25
     },
     {
       "id": "parch_abusivi",
@@ -513,7 +513,7 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 45,
+      "taxi_ncc": 49,
       "deiezioni": 24,
       "targa_estera": 1,
       "occ_suolo": 1,
@@ -598,6 +598,11 @@
       "quantita": 1
     },
     {
+      "categoria": "SINISTRO",
+      "unita": "interventi",
+      "quantita": 1
+    },
+    {
       "categoria": "STALLI_DISABILI",
       "unita": "verifiche_contrassegni",
       "quantita": 1
@@ -616,6 +621,11 @@
       "categoria": "TAXI",
       "unita": "controlli",
       "quantita": 44
+    },
+    {
+      "categoria": "TAXI_NCC",
+      "unita": "controlli",
+      "quantita": 4
     },
     {
       "categoria": "VEICOLO_RECUPERATO",
@@ -777,7 +787,7 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
@@ -790,7 +800,8 @@
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-16"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
