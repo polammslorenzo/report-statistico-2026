@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "4b70b9035de8762f0a52bae691179dd1eed3abc78d9611d35ee5236353ff39a1",
-  "aggiornato": "2026-10-19T09:00:05.910531+02:00",
+  "signature": "82e47545dbfb2654864805b071f38e55f4853042343b5ef14d62e677c4eb36db",
+  "aggiornato": "2026-10-19T12:18:00.309976+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -797,6 +797,22 @@
       "categoria": "RIMOZIONE",
       "quantita": 1,
       "unita": "veicoli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "TARGHE_STRANIERE",
+      "quantita": 1,
+      "unita": "controlli_da_verificare",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "TARGHE_STRANIERE",
+      "quantita": 1,
+      "unita": "controlli_da_verificare",
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
