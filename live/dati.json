@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "3b2a3aa2cce65126dee2009e3db31bf80adc4d341be9e1b14daa672a2f8a5141",
-  "aggiornato": "2026-10-17T18:02:52.694779+02:00",
+  "signature": "4b70b9035de8762f0a52bae691179dd1eed3abc78d9611d35ee5236353ff39a1",
+  "aggiornato": "2026-10-19T09:00:05.910531+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -26,9 +26,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 92,
       "mesi_con_valore": 9,
-      "rapportini": 3,
-      "totale_documentato": 95,
-      "percentuale": 48.97
+      "rapportini": 13,
+      "totale_documentato": 105,
+      "percentuale": 54.12
     },
     {
       "id": "targa_estera",
@@ -38,9 +38,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 252,
       "mesi_con_valore": 9,
-      "rapportini": 1,
-      "totale_documentato": 253,
-      "percentuale": 104.55
+      "rapportini": 3,
+      "totale_documentato": 255,
+      "percentuale": 105.37
     },
     {
       "id": "taxi_ncc",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 49,
-      "totale_documentato": 387,
-      "percentuale": 77.25
+      "rapportini": 57,
+      "totale_documentato": 395,
+      "percentuale": 78.84
     },
     {
       "id": "parch_abusivi",
@@ -513,19 +513,19 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 49,
+      "taxi_ncc": 57,
       "deiezioni": 24,
-      "targa_estera": 1,
+      "targa_estera": 3,
       "occ_suolo": 1,
       "interforze": 1,
-      "autotrasporti": 3
+      "autotrasporti": 13
     }
   },
   "altre_attivita": [
     {
       "categoria": "ATP",
       "unita": "controlli",
-      "quantita": 3
+      "quantita": 13
     },
     {
       "categoria": "CONFISCA_CDS",
@@ -541,6 +541,11 @@
       "categoria": "INTERFORZE",
       "unita": "servizi",
       "quantita": 1
+    },
+    {
+      "categoria": "MOVIDA_BELLINI",
+      "unita": "esercizi",
+      "quantita": 20
     },
     {
       "categoria": "NCC",
@@ -580,7 +585,7 @@
     {
       "categoria": "RIMOZIONE",
       "unita": "veicoli",
-      "quantita": 4
+      "quantita": 5
     },
     {
       "categoria": "RITIRO_PATENTE",
@@ -615,12 +620,12 @@
     {
       "categoria": "TARGHE_STRANIERE",
       "unita": "controlli",
-      "quantita": 1
+      "quantita": 3
     },
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 44
+      "quantita": 52
     },
     {
       "categoria": "TAXI_NCC",
@@ -785,9 +790,17 @@
       "quantita": null,
       "unita": "controlli",
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
+    },
+    {
+      "tipo": "rapportino",
+      "mese": "2026-10",
+      "categoria": "RIMOZIONE",
+      "quantita": 1,
+      "unita": "veicoli",
+      "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
@@ -801,7 +814,8 @@
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-17"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
