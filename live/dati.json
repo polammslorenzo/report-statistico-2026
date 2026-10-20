@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "d424e2f7b3203464adc931d03df7832c9271690deb1f0f3e2ae033642ee7b164",
-  "aggiornato": "2026-10-19T18:13:42.193435+02:00",
+  "signature": "ef4920f9537bbb75f312736fea545970c8bb1ba010343687e72c391e7cd767f6",
+  "aggiornato": "2026-10-20T07:37:40.087546+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -14,9 +14,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 9220,
       "mesi_con_valore": 9,
-      "rapportini": 1,
-      "totale_documentato": 9221,
-      "percentuale": 93.42
+      "rapportini": 2,
+      "totale_documentato": 9222,
+      "percentuale": 93.43
     },
     {
       "id": "autotrasporti",
@@ -516,7 +516,7 @@
       "taxi_ncc": 57,
       "deiezioni": 24,
       "targa_estera": 3,
-      "occ_suolo": 1,
+      "occ_suolo": 2,
       "interforze": 1,
       "autotrasporti": 13
     }
@@ -560,7 +560,7 @@
     {
       "categoria": "OCCUPAZIONE_SUOLO",
       "unita": "controlli",
-      "quantita": 1
+      "quantita": 2
     },
     {
       "categoria": "OSTACOLO_CARREGGIATA",
@@ -586,6 +586,11 @@
       "categoria": "RIMOZIONE",
       "unita": "veicoli",
       "quantita": 5
+    },
+    {
+      "categoria": "RIMOZIONI",
+      "unita": "veicoli",
+      "quantita": 3
     },
     {
       "categoria": "RITIRO_PATENTE",
@@ -816,7 +821,7 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
@@ -831,7 +836,9 @@
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
