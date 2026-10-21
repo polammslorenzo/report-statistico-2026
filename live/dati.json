@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "fce3553f498fed1faf5df3ba33876465aa37fb631476da42daadab98cc0d6e80",
-  "aggiornato": "2026-10-21T12:10:16.417285+02:00",
+  "signature": "3f5c7447022469859491f25f849ece20ae4a5be9ee0c2cd9874089e3de6e5f3a",
+  "aggiornato": "2026-10-21T17:32:41.708551+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -26,9 +26,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 92,
       "mesi_con_valore": 9,
-      "rapportini": 14,
-      "totale_documentato": 106,
-      "percentuale": 54.64
+      "rapportini": 19,
+      "totale_documentato": 111,
+      "percentuale": 57.22
     },
     {
       "id": "targa_estera",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 69,
-      "totale_documentato": 407,
-      "percentuale": 81.24
+      "rapportini": 70,
+      "totale_documentato": 408,
+      "percentuale": 81.44
     },
     {
       "id": "parch_abusivi",
@@ -513,19 +513,19 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 69,
+      "taxi_ncc": 70,
       "deiezioni": 24,
       "targa_estera": 4,
       "occ_suolo": 2,
       "interforze": 1,
-      "autotrasporti": 14
+      "autotrasporti": 19
     }
   },
   "altre_attivita": [
     {
       "categoria": "ATP",
       "unita": "controlli",
-      "quantita": 14
+      "quantita": 19
     },
     {
       "categoria": "CONFISCA_CDS",
@@ -630,7 +630,7 @@
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 64
+      "quantita": 65
     },
     {
       "categoria": "TAXI_NCC",
@@ -839,7 +839,8 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
