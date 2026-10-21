@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "3f5c7447022469859491f25f849ece20ae4a5be9ee0c2cd9874089e3de6e5f3a",
-  "aggiornato": "2026-10-21T17:32:41.708551+02:00",
+  "signature": "f00c3ec4e0e2758c6e583f21c5250c02c504218d58c33470637e87dc0c3c458b",
+  "aggiornato": "2026-10-21T17:35:03.055642+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -26,9 +26,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 92,
       "mesi_con_valore": 9,
-      "rapportini": 19,
-      "totale_documentato": 111,
-      "percentuale": 57.22
+      "rapportini": 24,
+      "totale_documentato": 116,
+      "percentuale": 59.79
     },
     {
       "id": "targa_estera",
@@ -518,14 +518,14 @@
       "targa_estera": 4,
       "occ_suolo": 2,
       "interforze": 1,
-      "autotrasporti": 19
+      "autotrasporti": 24
     }
   },
   "altre_attivita": [
     {
       "categoria": "ATP",
       "unita": "controlli",
-      "quantita": 19
+      "quantita": 24
     },
     {
       "categoria": "CONFISCA_CDS",
