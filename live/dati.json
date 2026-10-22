@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "b35426eca891803d9bbcb5401f4bd3dfc32db1ee7607c6d1b5287de17ad5c2e0",
-  "aggiornato": "2026-10-21T18:49:23.192097+02:00",
+  "signature": "ec43cb2a553300405523de146cc5139a1f70f37e5f8540033adef86dd08b6984",
+  "aggiornato": "2026-10-22T08:15:30.198058+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -26,9 +26,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 92,
       "mesi_con_valore": 9,
-      "rapportini": 24,
-      "totale_documentato": 116,
-      "percentuale": 59.79
+      "rapportini": 28,
+      "totale_documentato": 120,
+      "percentuale": 61.86
     },
     {
       "id": "targa_estera",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 70,
-      "totale_documentato": 408,
-      "percentuale": 81.44
+      "rapportini": 86,
+      "totale_documentato": 424,
+      "percentuale": 84.63
     },
     {
       "id": "parch_abusivi",
@@ -513,19 +513,19 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 70,
+      "taxi_ncc": 86,
       "deiezioni": 24,
       "targa_estera": 4,
       "occ_suolo": 2,
       "interforze": 1,
-      "autotrasporti": 24
+      "autotrasporti": 28
     }
   },
   "altre_attivita": [
     {
       "categoria": "ATP",
       "unita": "controlli",
-      "quantita": 24
+      "quantita": 28
     },
     {
       "categoria": "CONFISCA_CDS",
@@ -630,7 +630,7 @@
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 65
+      "quantita": 81
     },
     {
       "categoria": "TAXI_NCC",
@@ -821,7 +821,7 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
