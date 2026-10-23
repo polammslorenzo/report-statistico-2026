@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "signature": "1a4a9a09ee1c2bda206406949662a89fd8f9e1ffc9ac8740026276df5457d080",
-  "aggiornato": "2026-10-22T18:13:55.113332+02:00",
+  "signature": "7039f7ab485a3f42e77502fed860b9ca9be7e4740b46bf07f6640fa50125d34c",
+  "aggiornato": "2026-10-23T09:03:18.608530+02:00",
   "anno": 2026,
   "target_fonte": "https://polammslorenzo.github.io/report-statistico-2026/",
   "target_nota": "Target del report principale nella sessione con i consuntivi gennaio–settembre 2026 caricati, rilevati il 7 ottobre 2026: 23 obiettivi, totale 34.020.",
@@ -26,9 +26,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 92,
       "mesi_con_valore": 9,
-      "rapportini": 28,
-      "totale_documentato": 120,
-      "percentuale": 61.86
+      "rapportini": 37,
+      "totale_documentato": 129,
+      "percentuale": 66.49
     },
     {
       "id": "targa_estera",
@@ -50,9 +50,9 @@
       "categoria": "CONTROLLI CDS",
       "consuntivo": 338,
       "mesi_con_valore": 9,
-      "rapportini": 86,
-      "totale_documentato": 424,
-      "percentuale": 84.63
+      "rapportini": 96,
+      "totale_documentato": 434,
+      "percentuale": 86.63
     },
     {
       "id": "parch_abusivi",
@@ -513,19 +513,19 @@
   "excel_mese_in_corso": {},
   "mesi_rapportini": {
     "2026-10": {
-      "taxi_ncc": 86,
+      "taxi_ncc": 96,
       "deiezioni": 24,
       "targa_estera": 4,
       "occ_suolo": 2,
       "interforze": 1,
-      "autotrasporti": 28
+      "autotrasporti": 37
     }
   },
   "altre_attivita": [
     {
       "categoria": "ATP",
       "unita": "controlli",
-      "quantita": 28
+      "quantita": 37
     },
     {
       "categoria": "CONFISCA_CDS",
@@ -575,6 +575,11 @@
     {
       "categoria": "PERDITA_ACQUA",
       "unita": "interventi",
+      "quantita": 1
+    },
+    {
+      "categoria": "PROVVEDIMENTI",
+      "unita": "sequestri penali",
       "quantita": 1
     },
     {
@@ -630,7 +635,7 @@
     {
       "categoria": "TAXI",
       "unita": "controlli",
-      "quantita": 81
+      "quantita": 91
     },
     {
       "categoria": "TAXI_NCC",
@@ -821,7 +826,7 @@
       "messaggio": "Dato o abbinamento da verificare; escluso dagli obiettivi."
     }
   ],
-  "ingresso_disponibile": false,
+  "ingresso_disponibile": true,
   "copertura_rapportini": [
     "2026-10-01",
     "2026-10-03",
@@ -840,7 +845,8 @@
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "fonti_excel": [
     "Consuntivo agosto 2026",
